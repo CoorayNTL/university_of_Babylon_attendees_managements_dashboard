@@ -1,9 +1,16 @@
 import React, { useState } from "react";
 import { Box, useTheme } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
-import { useGetDataFinalistsQuery } from "state/api";
+import {
+  useGetDataFinalistsQuery,
+  useGetCreateDataFinalistMutation,
+  useGetUpdateDataFinalistMutation,
+  useGetDeleteDataFinalistMutation,
+} from "state/api";
 import Header from "components/Header";
 import DataGridCustomToolbar from "components/DataGridCustomToolbar";
+import { Delete, Edit, Add } from "@mui/icons-material";
+import { IconButton } from "@mui/material";
 
 const DataFinalists = () => {
   const theme = useTheme();
@@ -21,8 +28,14 @@ const DataFinalists = () => {
     sort: JSON.stringify(sort),
     search,
   });
-console.log("data", data);
-  const columns = [ 
+  
+
+  const [createDataFinalist] = useGetCreateDataFinalistMutation();
+  const [updateDataFinalist] = useGetUpdateDataFinalistMutation();
+  const [deleteDataFinalist] = useGetDeleteDataFinalistMutation();
+
+  console.log("data", data);
+  const columns = [
     {
       field: "_id",
       headerName: "Event ID",
@@ -43,7 +56,7 @@ console.log("data", data);
       headerName: "# of FeedBacks",
       flex: 0.5,
       sortable: false,
-      renderCell: (params) => (params.value ?? '').length,//error fixed 
+      renderCell: (params) => (params.value ?? "").length, //error fixed
     },
     {
       field: "cost",
@@ -51,11 +64,72 @@ console.log("data", data);
       flex: 1,
       renderCell: (params) => `Rs.${Number(params.value).toFixed(2)}`,
     },
+    {
+      field: "actions",
+      headerName: "Actions",
+      flex: 0.5,
+      sortable: false,
+      renderCell: (params) => (
+        <>
+          <IconButton
+            color="primary"
+            size="small"
+            onClick={() => handleEdit(params.row)}
+          >
+            <Edit />
+          </IconButton>
+          <IconButton
+            color="error"
+            size="small"
+            onClick={() => handleDelete(params.row)}
+          >
+            <Delete />
+          </IconButton>
+        </>
+      ),
+    },
   ];
+
+  const onChangeHandler = (e) => {
+    setSearchInput(e.target.value);
+  };
+
+  const handleCreate = async () => {
+    try {
+      const newDataFinalist = {
+        attendeeId: "New Attendee",
+        cost: "0.00",
+      };
+      await createDataFinalist(newDataFinalist);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const handleEdit = async (rowData) => {
+    try {
+      const { _id, ...rest } = rowData;
+      await updateDataFinalist(_id, rest);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const handleDelete = async (rowData) => {
+    try {
+      const { _id } = rowData;
+      await deleteDataFinalist(_id);
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   return (
     <Box m="1.5rem 2.5rem">
-      <Header title="DATA-FINALISTS" subtitle="Entire list of Previours of Events" />
+      <Header
+        title="DATA-FINALISTS"
+        subtitle="Entire list of Previours of Events"
+      />
       <Box
         height="80vh"
         sx={{
@@ -102,6 +176,9 @@ console.log("data", data);
           componentsProps={{
             toolbar: { searchInput, setSearchInput, setSearch },
           }}
+          onChangeHandler={onChangeHandler}
+          handleDelete={handleDelete}
+          handleEdit={handleEdit}
         />
       </Box>
     </Box>

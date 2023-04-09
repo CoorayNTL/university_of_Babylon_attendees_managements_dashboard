@@ -1,7 +1,4 @@
-import { useGetAttendeesQuery } from "state/api";
-import { useCreateAttendeesMutation } from "state/api";
-import { useUpdateAttendeesMutation } from "state/api";
-import { useDeleteAttendeesMutation } from "state/api";
+import { useGetAdministratorsQuery } from "state/api";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import MaterialReactTable from "material-react-table";
 import {
@@ -20,8 +17,8 @@ import { Delete, Edit } from "@mui/icons-material";
 
 import Header from "components/Header";
 
-const Attendee = () => {
-  const { data, isLoading } = useGetAttendeesQuery();
+const Administrator = () => {
+  const { data, isLoading } = useGetAdministratorsQuery();
   console.log("data", data);
 
   const [createModalOpen, setCreateModalOpen] = useState(false);
@@ -35,12 +32,7 @@ const Attendee = () => {
     }
   }, [data]);
 
-  const [createAttendee] = useCreateAttendeesMutation();
-  const [editAttendee] = useUpdateAttendeesMutation();
-  const [deleteAttendee] = useDeleteAttendeesMutation();
-
   const handleCreateNewRow = (values) => {
-    createAttendee(values);
     tableData.push(values);
     setTableData([...tableData]);
   };
@@ -49,8 +41,6 @@ const Attendee = () => {
     if (!Object.keys(validationErrors)) {
       tableData[row.index] = values;
       //send/receive api updates here, then refetch or update local table data for re-render
-      editAttendee(values);
-
       setTableData([...tableData]);
       exitEditingMode(); //required to exit editing mode and close modal
     }
@@ -63,7 +53,6 @@ const Attendee = () => {
   const handleDeleteRow = useCallback(
     (row) => {
       //send api delete request here, then refetch or update local table data for re-render
-      deleteAttendee(row.original);
       tableData.splice(row.index, 1);
       setTableData([...tableData]);
     },
@@ -176,21 +165,6 @@ const Attendee = () => {
           ...getCommonEditTextFieldProps(cell),
         }),
       },
-      {
-        accessorKey: "status",
-        header: "Status",
-        size: 80,
-        muiTableBodyCellEditTextFieldProps: ({ cell }) => ({
-          ...getCommonEditTextFieldProps(cell),
-        }),
-      },
-      {
-        accessorKey: "date",
-        header: "Date",
-        muiTableBodyCellEditTextFieldProps: ({ cell }) => ({
-          ...getCommonEditTextFieldProps(cell),
-        }),
-      },
     ],
     [getCommonEditTextFieldProps]
   );
@@ -198,7 +172,8 @@ const Attendee = () => {
   return (
     <>
       <Box m="1.5rem 1.0rem">
-        <Header title="ATTENDEE" subtitle="List of Attendee" />
+        <Header title="ADMINISTRATOR" subtitle="List of Administrator" />
+
         <MaterialReactTable
           loading={isLoading || !data}
           displayColumnDefOptions={{
@@ -261,7 +236,6 @@ export const CreateNewAccountModal = ({ open, columns, onClose, onSubmit }) => {
   );
 
   const handleSubmit = () => {
-    // createAttendee(values);
     onSubmit(values);
     onClose();
   };
@@ -311,4 +285,4 @@ const validateEmail = (email) =>
     );
 const validateAge = (age) => age >= 18 && age <= 50;
 
-export default Attendee;
+export default Administrator;

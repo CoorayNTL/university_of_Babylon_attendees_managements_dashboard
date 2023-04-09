@@ -60,7 +60,7 @@ const Dashboard = () => {
   return (
     <Box m="1.5rem 2.5rem">
       <FlexBetween>
-        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
+        <Header title="ATTENDEES MANAGE" subtitle="Welcome to your dashboard" />
 
         <Box>
           <Button
@@ -73,7 +73,7 @@ const Dashboard = () => {
             }}
           >
             <DownloadOutlined sx={{ mr: "10px" }} />
-            Download Reports
+            Upload CSV Reports
           </Button>
         </Box>
       </FlexBetween>

@@ -4,8 +4,14 @@ import DataFinalists from "../models/DataFinalists.js";
 
 export const getAdministrator = async (req, res) => {
   try {
+
     const administrator = await Attendee.find({ role: "administrator" }).select("-password");
+
+    
+
+
     res.status(200).json(administrator);
+
   } catch (error) {
     res.status(404).json({ message: error.message });
   }

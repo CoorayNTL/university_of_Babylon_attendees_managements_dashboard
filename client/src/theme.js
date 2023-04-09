@@ -1,5 +1,6 @@
 // color design tokens export
 export const tokensDark = {
+ 
   indigo: {
       100: "#d9e4ff",
       200: "#b3c9ff",
@@ -11,7 +12,6 @@ export const tokensDark = {
       800: "#1a3066",
       900: "#0d1833"
 },
-  
   grey: {
     0: "#ffffff", // manually adjusted
     10: "#f6f6f6", // manually adjusted
@@ -29,28 +29,28 @@ export const tokensDark = {
   },
   primary: {
     // blue
-    100: "#d9e4ff",
-    200: "#b3c9ff",
-    300: "#8eadff",
-    400: "#6892ff",
-    500: "#4277ff",
-    600: "#355fcc",
-    700: "#284799",
-    800: "#1a3066",
-    900: "#0d1833"
+    100: "#ccdbe9",
+      200: "#99b6d3",
+      300: "#6692bc",
+      400: "#336da6",
+      500: "#004990",
+      600: "#003a73",
+      700: "#002c56",
+      800: "#001d3a",
+      900: "#000f1d"
   },
   secondary: {
     // yellow
-    50: "#f0f0f0", // manually adjusted
-    100: "#fff6e0",
-    200: "#ffedc2",
-    300: "#ffe3a3",
-    400: "#ffda85",
-    500: "#ffd166",
-    600: "#cca752",
-    700: "#997d3d",
-    800: "#665429",
-    900: "#332a14",
+    
+    100: "#feefd8",
+    200: "#fde0b1",
+    300: "#fdd08a",
+    400: "#fcc163",
+    500: "#fbb13c",
+    600: "#c98e30",
+    700: "#976a24",
+    800: "#644718",
+    900: "#32230c",
   },
 };
 

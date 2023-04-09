@@ -2,30 +2,58 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_BASE_URL }),
-  reducerPath: "adminApi",
+  reducerPath: "administratorApi",
   tagTypes: [
     "Attendee",
     "FeedBacks",
     "Attendees",
     "DataFinalists",
     "Events",
-    "Admins",
+    "Administrators",
     "Performance",
     "Dashboard",
+    "AttendeeStatus",
   ],
   endpoints: (build) => ({
     getAttendee: build.query({
       query: (id) => `general/attendee/${id}`,
+      transformResponse: res => res.sort((a, b) => b.id - a.id),
       providesTags: ["Attendee"],
     }),
     getFeedBacks: build.query({
       query: () => "client/feedBacks",
       providesTags: ["FeedBacks"],
     }),
-    getAttendees: build.query({ 
+    getAttendees: build.query({
       query: () => "client/attendees",
+      transformResponse: res => res.sort((a, b) => b.id - a.id),
       providesTags: ["Attendees"],
-    }), 
+    }),
+    CreateAttendees: build.mutation({
+      query: (newAttendee) => ({
+        url: "client/attendees",
+        method: "POST",
+        body: newAttendee,
+      }),
+      invalidatesTags: ["Attendees"],
+    }),
+    UpdateAttendees: build.mutation({
+      query: (updatedAttendee) => ({
+        url: `client/attendee/${updatedAttendee._id}`,
+        method: "PATCH",
+        body: updatedAttendee,
+      }),
+      invalidatesTags: ["Attendees"],
+    }),
+
+    DeleteAttendees: build.mutation({
+      query: (id) => ({
+        url: `client/attendee/${id}`,
+        method: "DELETE",
+      }),
+      invalidatesTags: ["Attendees"],
+    }),
+
     getDataFinalists: build.query({
       query: ({ page, pageSize, sort, search }) => ({
         url: "client/dataFinalists",
@@ -34,14 +62,37 @@ export const api = createApi({
       }),
       providesTags: ["DataFinalists"],
     }),
-    
+    getCreateDataFinalist: build.mutation({
+      query: (newDataFinalist) => ({
+        url: "client/dataFinalists",
+        method: "POST",
+        body: newDataFinalist,
+      }),
+      providesTags: ["DataFinalists"],
+    }),
+    getUpdateDataFinalist: build.mutation({
+      query: (updatedDataFinalist) => ({
+        url: `client/dataFinalists/${updatedDataFinalist._id}`,
+        method: "PATCH",
+        body: updatedDataFinalist,
+      }),
+      providesTags: ["DataFinalists"],
+    }),
+    getDeleteDataFinalist: build.mutation({
+      query: (id) => ({
+        url: `client/dataFinalists/${id}`,
+        method: "DELETE",
+      }),
+      providesTags: ["DataFinalists"],
+    }),
     getEvents: build.query({
       query: () => "events/events",
       providesTags: ["Events"],
     }),
-    getAdmins: build.query({
-      query: () => "management/admins",
-      providesTags: ["Admins"],
+    getAdministrators: build.query({
+      query: () => "management/administrator",
+      method: "GET",
+      providesTags: ["Administrators"],
     }),
     getAttendeePerformance: build.query({
       query: (id) => `management/performance/${id}`,
@@ -50,6 +101,11 @@ export const api = createApi({
     getDashboard: build.query({
       query: () => "general/dashboard",
       providesTags: ["Dashboard"],
+    }),
+
+    getAttendeeStatus: build.query({
+      query: (id) => `client/attendeeStatus/${id}`,
+      providesTags: ["AttendeeStatus"],
     }),
   }),
 });
@@ -60,7 +116,14 @@ export const {
   useGetAttendeesQuery,
   useGetDataFinalistsQuery,
   useGetEventsQuery,
-  useGetAdminsQuery,
+  useGetAdministratorsQuery,
   useGetAttendeePerformanceQuery,
   useGetDashboardQuery,
+  useGetCreateDataFinalistMutation,
+  useGetUpdateDataFinalistMutation,
+  useGetDeleteDataFinalistMutation,
+  useCreateAttendeesMutation,
+  useUpdateAttendeesMutation,
+  useDeleteAttendeesMutation,
+  useGetAttendeeStatusesQuery,
 } = api;

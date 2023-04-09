@@ -14,7 +14,7 @@ import Daily from "scenes/daily";
 import Monthly from "scenes/monthly";
 import Breakdown from "scenes/breakdown";
 import RSVPEMAIL from "scenes/revpemail";
-import Admin from "scenes/admin";
+import Administrator from "scenes/administrator";
 import Performance from "scenes/performance";
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
               <Route path="/monthly" element={<Monthly />} />
               <Route path="/breakdown" element={<Breakdown />} />
               <Route path="/rsvpemail" element={<RSVPEMAIL />} />
-              {/* <Route path="/admin" element={<Admin />} /> */}
+              <Route path="/administrator" element={<Administrator />} />
               <Route path="/performance" element={<Performance />} /> 
             </Route>
           </Routes>

@@ -28,7 +28,7 @@ const Performance = () => {
       flex: 1,
     },
     {
-      field: "feedBacks",
+      field: "feedbacks",
       headerName: "# of FeedBacks",
       flex: 0.5,
       sortable: false,
@@ -79,7 +79,7 @@ const Performance = () => {
         <DataGrid
           loading={isLoading || !data}
           getRowId={(row) => row._id}
-          rows={(data && data.events) || []}
+          rows={(data && data.dataFinalists) || []}
           columns={columns}
           components={{
             ColumnMenu: CustomColumnMenu,

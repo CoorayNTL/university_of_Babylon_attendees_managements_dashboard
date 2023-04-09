@@ -18,6 +18,7 @@ import FeedBackStat from "./models/FeedBackStat.js";
 import DataFinalists from "./models/DataFinalists.js";
 import OverallStat from "./models/OverallStat.js";
 import AffiliateStat from "./models/AffiliateStat.js";
+import AttendeeStatus from "./models/attendeeStatus.js";
 import {
   dataAttendee,
   dataFeedBack,
@@ -25,6 +26,7 @@ import {
   eventDataFinalists,
   dataOverallStat,
   dataAffiliateStat,
+  dataAttendeeStatus,
 } from "./data/index.js";
 
 /* CONFIGURATION */
@@ -43,6 +45,8 @@ app.use("/client", clientRoutes);
 app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
 app.use("/events", eventsRoutes);
+
+
 
 const PORT = process.env.PORT || 9000;
 
@@ -65,12 +69,12 @@ mongoose
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
-    /* ONLY ADD DATA ONE TIME */
     // AffiliateStat.insertMany(dataAffiliateStat);
     // OverallStat.insertMany(dataOverallStat);
     // FeedBack.insertMany(dataFeedBack);
     // FeedBackStat.insertMany(dataFeedBackStat);
     // DataFinalists.insertMany(eventDataFinalists);
     // Attendee.insertMany(dataAttendee);
+    //AttendeeStatus.insertMany(dataAttendeeStatus);
   })
   .catch((error) => console.log(`${error} did not connect`));

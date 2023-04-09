@@ -17317,7 +17317,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Computer Systems Analyst I",
     phoneNumber: "8346315874",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000158",
       "63701d74f03239d40b00007e",
       "63701d74f03239867500014b",
@@ -17335,7 +17335,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Food Chemist",
     phoneNumber: "9981906117",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f7000027",
       "63701d74f03239db69000153",
       "63701d74f03239569400002d",
@@ -17353,7 +17353,7 @@ export const dataAttendee = [
     event: "TH",
     student_year: "Staff Scientist",
     phoneNumber: "3868813669",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b00008c",
       "63701d74f03239b7f700001e",
       "63701d74f03239867500012e",
@@ -17373,7 +17373,7 @@ export const dataAttendee = [
     event: "AR",
     student_year: "Associate Professor",
     phoneNumber: "8535391908",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a3400032f",
       "63701d74f032390a3400033f",
       "63701d74f03239d59100034c",
@@ -17397,7 +17397,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Senior Cost Accountant",
     phoneNumber: "5367727534",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395694000036",
       "63701d74f032395b33000138",
       "63701d74f032394441000314",
@@ -17414,7 +17414,7 @@ export const dataAttendee = [
     event: "BR",
     student_year: "Chemical Engineer",
     phoneNumber: "8601650433",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b000078",
       "63701d74f03239db69000157",
       "63701d74f03239b7f7000025",
@@ -17438,7 +17438,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Quality Engineer",
     phoneNumber: "3096621613",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323944410002fa",
       "63701d74f03239f09e0001ab",
       "63701d74f03239db6900014e",
@@ -17461,7 +17461,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Senior Quality Engineer",
     phoneNumber: "2982518057",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e000044",
       "63701d74f03239bef0000155",
       "63701d74f03239d81e00001e",
@@ -17478,7 +17478,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Office Assistant IV",
     phoneNumber: "5967740518",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395694000041",
       "63701d74f032395b33000144",
       "63701d74f032398675000130",
@@ -17499,7 +17499,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Analog Circuit Design manager",
     phoneNumber: "6052810930",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000152",
       "63701d74f032399c0000014b",
       "63701d74f03239867500015b",
@@ -17519,7 +17519,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Food Chemist",
     phoneNumber: "8395198999",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000131",
       "63701d74f032399c0000014c",
       "63701d74f03239db69000133",
@@ -17539,7 +17539,7 @@ export const dataAttendee = [
     event: "SI",
     student_year: "Administratoristrative Assistant III",
     phoneNumber: "2401478620",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e00003a",
       "63701d74f03239cdc5000037",
       "63701d74f03239cdc5000046",
@@ -17559,7 +17559,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Senior Quality Engineer",
     phoneNumber: "7394223360",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001a8",
       "63701d74f032399c0000013c",
       "63701d74f03239db69000155",
@@ -17576,7 +17576,7 @@ export const dataAttendee = [
     event: "JO",
     student_year: "Health Coach I",
     phoneNumber: "8815565181",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000027",
       "63701d74f032390a3400033e",
       "63701d74f03239528f000036",
@@ -17597,7 +17597,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Research Associate",
     phoneNumber: "9889514743",
-    transactions: ["63701d74f032394441000305"],
+    dataFinalists: ["63701d74f032394441000305"],
     role: "attendee",
   },
   {
@@ -17610,7 +17610,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Professor",
     phoneNumber: "1711601856",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e0001bd",
       "63701d74f03239b7f7000029",
       "63701d74f032395b33000153",
@@ -17631,7 +17631,7 @@ export const dataAttendee = [
     event: "GR",
     student_year: "Product Engineer",
     phoneNumber: "9765815561",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394441000319",
       "63701d74f03239528f00003e",
       "63701d74f03239bef000014e",
@@ -17654,7 +17654,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Health Coach I",
     phoneNumber: "8958889697",
-    transactions: ["63701d74f0323944410002fc"],
+    dataFinalists: ["63701d74f0323944410002fc"],
     role: "attendee",
   },
   {
@@ -17667,7 +17667,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Programmer II",
     phoneNumber: "1904503194",
-    transactions: ["63701d74f032395b33000132"],
+    dataFinalists: ["63701d74f032395b33000132"],
     role: "administrator",
   },
   {
@@ -17680,7 +17680,7 @@ export const dataAttendee = [
     event: "BR",
     student_year: "Mechanical Systems Engineer",
     phoneNumber: "2849094457",
-    transactions: [
+    dataFinalists: [
       "63701d74f032398675000148",
       "63701d74f032390a34000339",
       "63701d74f03239db69000141",
@@ -17699,7 +17699,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Compensation Analyst",
     phoneNumber: "8057932279",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394441000317",
       "63701d74f03239f09e0001a5",
       "63701d74f032394441000313",
@@ -17717,7 +17717,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Legal Assistant",
     phoneNumber: "9871632129",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b000064",
       "63701d74f03239f09e000194",
       "63701d74f03239d59100034d",
@@ -17740,7 +17740,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Design Engineer",
     phoneNumber: "2019015578",
-    transactions: ["63701d74f03239bef0000140"],
+    dataFinalists: ["63701d74f03239bef0000140"],
     role: "administrator",
   },
   {
@@ -17753,7 +17753,7 @@ export const dataAttendee = [
     event: "TH",
     student_year: "Technical Writer",
     phoneNumber: "6912362416",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000035",
       "63701d74f03239db69000130",
       "63701d74f03239f09e000192",
@@ -17771,7 +17771,7 @@ export const dataAttendee = [
     event: "VN",
     student_year: "Chemical Engineer",
     phoneNumber: "5725023513",
-    transactions: [
+    dataFinalists: [
       "63701d74f032398675000130",
       "63701d74f032398675000155",
       "63701d74f03239528f000026",
@@ -17794,7 +17794,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "VP Accounting",
     phoneNumber: "3653765798",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b000080",
       "63701d74f032390a3400034d",
       "63701d74f03239c72c0001a0",
@@ -17818,7 +17818,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Librarian",
     phoneNumber: "9841492249",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef0000157",
       "63701d74f032396b8e00003a",
       "63701d74f032390a34000337",
@@ -17838,7 +17838,7 @@ export const dataAttendee = [
     event: "CA",
     student_year: "Analyst Programmer",
     phoneNumber: "4165319154",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f000024",
       "63701d74f03239b913000046",
       "63701d74f03239d591000352",
@@ -17862,7 +17862,7 @@ export const dataAttendee = [
     event: "CL",
     student_year: "Human Resources Manager",
     phoneNumber: "7832710010",
-    transactions: ["63701d74f03239b91300002c"],
+    dataFinalists: ["63701d74f03239b91300002c"],
     role: "administrator",
   },
   {
@@ -17875,7 +17875,7 @@ export const dataAttendee = [
     event: "SV",
     student_year: "Dental Hygienist",
     phoneNumber: "9031861313",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d591000348",
       "63701d74f032395b33000147",
       "63701d74f032390a3400033f",
@@ -17896,7 +17896,7 @@ export const dataAttendee = [
     event: "SE",
     student_year: "Help Desk Operator",
     phoneNumber: "5849922301",
-    transactions: ["63701d74f03239b91300001a"],
+    dataFinalists: ["63701d74f03239b91300001a"],
     role: "administrator",
   },
   {
@@ -17909,7 +17909,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Senior Developer",
     phoneNumber: "6492193450",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc500003a",
       "63701d74f03239db69000132",
       "63701d74f03239bef0000153",
@@ -17929,7 +17929,7 @@ export const dataAttendee = [
     event: "TH",
     student_year: "Help Desk Technician",
     phoneNumber: "7662486646",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e0001ab",
       "63701d74f032396b8e000034",
       "63701d74f03239db69000153",
@@ -17951,7 +17951,7 @@ export const dataAttendee = [
     event: "PE",
     student_year: "Librarian",
     phoneNumber: "1431906173",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395b3300015b",
       "63701d74f032396b8e00001a",
       "63701d74f03239c72c000199",
@@ -17970,7 +17970,7 @@ export const dataAttendee = [
     event: "VN",
     student_year: "VP Accounting",
     phoneNumber: "9157315270",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395694000030",
       "63701d74f032399c0000014d",
       "63701d74f032394c49000157",
@@ -17992,7 +17992,7 @@ export const dataAttendee = [
     event: "BA",
     student_year: "Sales Representative",
     phoneNumber: "1798809437",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b00006d",
       "63701d74f03239b91300002d",
       "63701d74f03239d40b000068",
@@ -18011,7 +18011,7 @@ export const dataAttendee = [
     event: "RS",
     student_year: "Associate Professor",
     phoneNumber: "5644476178",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a34000350",
       "63701d74f032398675000145",
       "63701d74f032390a34000338",
@@ -18030,7 +18030,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Student_yearal Therapist",
     phoneNumber: "1837060566",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef000013e",
       "63701d74f03239f09e00019c",
       "63701d74f032398675000144",
@@ -18049,7 +18049,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Pharmacist",
     phoneNumber: "7036619983",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e000027",
       "63701d74f032396b8e00002c",
       "63701d74f032396b8e000037",
@@ -18070,7 +18070,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Administratoristrative Officer",
     phoneNumber: "4707334512",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef0000133",
       "63701d74f032396b8e00003c",
       "63701d74f0323986f3000156",
@@ -18088,7 +18088,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Librarian",
     phoneNumber: "6834096034",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f000045",
       "63701d74f03239db69000140",
       "63701d74f03239db69000150",
@@ -18105,7 +18105,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Software Test Engineer III",
     phoneNumber: "9202297858",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e00002a",
       "63701d74f03239528f00003e",
       "63701d74f03239d59100032b",
@@ -18127,7 +18127,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Assistant Media Planner",
     phoneNumber: "6985339606",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc5000029",
       "63701d74f03239db6900012f",
       "63701d74f03239b913000035",
@@ -18144,7 +18144,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Pharmacist",
     phoneNumber: "6998313608",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394441000301",
       "63701d74f03239d40b00006f",
       "63701d74f03239d40b00007f",
@@ -18163,7 +18163,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Office Assistant III",
     phoneNumber: "2634455004",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323944410002f8",
       "63701d74f03239569400001e",
       "63701d74f032395b33000138",
@@ -18186,7 +18186,7 @@ export const dataAttendee = [
     event: "UA",
     student_year: "Tax Accountant",
     phoneNumber: "5491175476",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001be",
       "63701d74f03239f09e0001b6",
       "63701d74f03239db69000130",
@@ -18207,7 +18207,7 @@ export const dataAttendee = [
     event: "UG",
     student_year: "Nurse Practicioner",
     phoneNumber: "7998057020",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e000038",
       "63701d74f03239f09e0001b2",
       "63701d74f03239db69000158",
@@ -18226,7 +18226,7 @@ export const dataAttendee = [
     event: "NG",
     student_year: "Graphic Designer",
     phoneNumber: "9558909811",
-    transactions: ["63701d74f03239444100030c", "63701d74f03239569400002b"],
+    dataFinalists: ["63701d74f03239444100030c", "63701d74f03239569400002b"],
     role: "superadministrator",
   },
   {
@@ -18239,7 +18239,7 @@ export const dataAttendee = [
     event: "HN",
     student_year: "Senior Editor",
     phoneNumber: "7693297972",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394441000306",
       "63701d74f03239867500014b",
       "63701d74f03239d81e00003d",
@@ -18263,7 +18263,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Payment Adjustment Coordinator",
     phoneNumber: "2303787795",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f000019",
       "63701d74f03239b7f7000043",
       "63701d74f032390a34000338",
@@ -18287,7 +18287,7 @@ export const dataAttendee = [
     event: "CM",
     student_year: "Safety Technician I",
     phoneNumber: "2589001309",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d591000349",
       "63701d74f03239bef000013a",
       "63701d74f032399c00000149",
@@ -18306,7 +18306,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Financial Analyst",
     phoneNumber: "3972807132",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e0001a6",
       "63701d74f032395694000042",
       "63701d74f03239db6900015b",
@@ -18325,7 +18325,7 @@ export const dataAttendee = [
     event: "AF",
     student_year: "Librarian",
     phoneNumber: "2967030879",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000036",
       "63701d74f03239bef0000153",
       "63701d74f032399c00000146",
@@ -18349,7 +18349,7 @@ export const dataAttendee = [
     event: "US",
     student_year: "Recruiter",
     phoneNumber: "6172973376",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f7000033",
       "63701d74f03239b7f7000030",
       "63701d74f032395b33000137",
@@ -18369,7 +18369,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Operator",
     phoneNumber: "4774537814",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239569400002d",
       "63701d74f032395b33000158",
       "63701d74f03239d59100032f",
@@ -18391,7 +18391,7 @@ export const dataAttendee = [
     event: "CM",
     student_year: "Geologist III",
     phoneNumber: "8998444141",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323944410002f5",
       "63701d74f03239b913000022",
       "63701d74f03239d591000352",
@@ -18409,7 +18409,7 @@ export const dataAttendee = [
     event: "PT",
     student_year: "Chief Design Engineer",
     phoneNumber: "7476816241",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc500003d",
       "63701d74f03239d40b000057",
       "63701d74f03239bef0000143",
@@ -18427,7 +18427,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Associate Professor",
     phoneNumber: "3539813742",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f700003b",
       "63701d74f032395b3300013e",
       "63701d74f03239b7f700003e",
@@ -18445,7 +18445,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Graphic Designer",
     phoneNumber: "8442463887",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395b3300014c",
       "63701d74f03239b913000029",
       "63701d74f03239d591000344",
@@ -18462,7 +18462,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Clinical Specialist",
     phoneNumber: "6146081308",
-    transactions: [
+    dataFinalists: [
       "63701d74f032398675000145",
       "63701d74f032394441000319",
       "63701d74f03239db69000143",
@@ -18486,7 +18486,7 @@ export const dataAttendee = [
     event: "PY",
     student_year: "Librarian",
     phoneNumber: "9207617212",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000039",
       "63701d74f032396b8e000019",
       "63701d74f03239cdc500002b",
@@ -18508,7 +18508,7 @@ export const dataAttendee = [
     event: "PT",
     student_year: "Junior Executive",
     phoneNumber: "6543510407",
-    transactions: ["63701d74f032396b8e00001f", "63701d74f032396b8e000033"],
+    dataFinalists: ["63701d74f032396b8e00001f", "63701d74f032396b8e000033"],
     role: "superadministrator",
   },
   {
@@ -18521,7 +18521,7 @@ export const dataAttendee = [
     event: "BO",
     student_year: "Sales Representative",
     phoneNumber: "4107831964",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000030",
       "63701d74f03239c72c000199",
       "63701d74f032396b8e000046",
@@ -18542,7 +18542,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Junior Executive",
     phoneNumber: "5395020807",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef0000131",
       "63701d74f03239d591000342",
       "63701d74f0323986f3000158",
@@ -18563,7 +18563,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Systems Administratoristrator IV",
     phoneNumber: "3351773602",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e0001bb",
       "63701d74f03239db69000146",
       "63701d74f03239d40b00006e",
@@ -18580,7 +18580,7 @@ export const dataAttendee = [
     event: "US",
     student_year: "Desktop Support Technician",
     phoneNumber: "5131816328",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001bf",
       "63701d74f032395694000041",
       "63701d74f032396b8e000020",
@@ -18597,7 +18597,7 @@ export const dataAttendee = [
     event: "BA",
     student_year: "Environmental Tech",
     phoneNumber: "6425378915",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f700002f",
       "63701d74f032394c49000144",
       "63701d74f03239d81e000036",
@@ -18618,7 +18618,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Chief Design Engineer",
     phoneNumber: "7296895830",
-    transactions: ["63701d74f03239bef0000141"],
+    dataFinalists: ["63701d74f03239bef0000141"],
     role: "attendee",
   },
   {
@@ -18631,7 +18631,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Budget/Accounting Analyst I",
     phoneNumber: "3533101907",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000130",
       "63701d74f03239b7f700001a",
       "63701d74f032396b8e000021",
@@ -18652,7 +18652,7 @@ export const dataAttendee = [
     event: "BR",
     student_year: "Civil Engineer",
     phoneNumber: "3529096801",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239569400001a",
       "63701d74f03239d40b000067",
       "63701d74f032399c0000013b",
@@ -18675,7 +18675,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Engineer IV",
     phoneNumber: "2398256034",
-    transactions: ["63701d74f03239b7f700003d", "63701d74f03239867500013f"],
+    dataFinalists: ["63701d74f03239b7f700003d", "63701d74f03239867500013f"],
     role: "attendee",
   },
   {
@@ -18688,7 +18688,7 @@ export const dataAttendee = [
     event: "JM",
     student_year: "Automation Specialist II",
     phoneNumber: "6422803157",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e00002c",
       "63701d74f0323944410002f4",
       "63701d74f03239c72c0001b5",
@@ -18708,7 +18708,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Librarian",
     phoneNumber: "7245543213",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000040",
       "63701d74f03239bef000013f",
       "63701d74f03239c72c000196",
@@ -18730,7 +18730,7 @@ export const dataAttendee = [
     event: "UA",
     student_year: "Electrical Engineer",
     phoneNumber: "9727176356",
-    transactions: ["63701d74f0323986f3000143", "63701d74f032395694000022"],
+    dataFinalists: ["63701d74f0323986f3000143", "63701d74f032395694000022"],
     role: "attendee",
   },
   {
@@ -18743,7 +18743,7 @@ export const dataAttendee = [
     event: "BR",
     student_year: "VP Product Management",
     phoneNumber: "2336512526",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e0001ae",
       "63701d74f03239b91300003a",
       "63701d74f03239d591000344",
@@ -18761,7 +18761,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Senior Financial Analyst",
     phoneNumber: "3363114409",
-    transactions: ["63701d74f032396b8e000036", "63701d74f032396b8e00001a"],
+    dataFinalists: ["63701d74f032396b8e000036", "63701d74f032396b8e00001a"],
     role: "administrator",
   },
   {
@@ -18774,7 +18774,7 @@ export const dataAttendee = [
     event: "BR",
     student_year: "Structural Analysis Engineer",
     phoneNumber: "8867064598",
-    transactions: ["63701d74f03239c72c0001aa", "63701d74f03239cdc5000044"],
+    dataFinalists: ["63701d74f03239c72c0001aa", "63701d74f03239cdc5000044"],
     role: "administrator",
   },
   {
@@ -18787,7 +18787,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Director of Sales",
     phoneNumber: "8921142758",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323944410002f1",
       "63701d74f03239db6900012e",
       "63701d74f032399c00000132",
@@ -18808,7 +18808,7 @@ export const dataAttendee = [
     event: "NA",
     student_year: "Registered Nurse",
     phoneNumber: "4006862957",
-    transactions: ["63701d74f032399c00000147"],
+    dataFinalists: ["63701d74f032399c00000147"],
     role: "attendee",
   },
   {
@@ -18821,7 +18821,7 @@ export const dataAttendee = [
     event: "MG",
     student_year: "Civil Engineer",
     phoneNumber: "1939969138",
-    transactions: ["63701d74f03239c72c0001a0", "63701d74f032396b8e000042"],
+    dataFinalists: ["63701d74f03239c72c0001a0", "63701d74f032396b8e000042"],
     role: "administrator",
   },
   {
@@ -18834,7 +18834,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Mechanical Systems Engineer",
     phoneNumber: "6981182224",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b000067",
       "63701d74f03239444100030d",
       "63701d74f0323986f3000142",
@@ -18852,7 +18852,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Automation Specialist III",
     phoneNumber: "8117671938",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f300014c",
       "63701d74f03239569400001b",
       "63701d74f03239d81e000043",
@@ -18870,7 +18870,7 @@ export const dataAttendee = [
     event: "SE",
     student_year: "Financial Analyst",
     phoneNumber: "6583737701",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000146",
       "63701d74f03239d591000349",
       "63701d74f032396b8e000043",
@@ -18893,7 +18893,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Technical Writer",
     phoneNumber: "3701230076",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000147",
       "63701d74f032394c4900014e",
       "63701d74f03239d59100034a",
@@ -18913,7 +18913,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "General Manager",
     phoneNumber: "1882605759",
-    transactions: ["63701d74f03239d591000330", "63701d74f032399c00000153"],
+    dataFinalists: ["63701d74f03239d591000330", "63701d74f032399c00000153"],
     role: "attendee",
   },
   {
@@ -18926,7 +18926,7 @@ export const dataAttendee = [
     event: "EC",
     student_year: "Speech Pathologist",
     phoneNumber: "3148704138",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a3400033c",
       "63701d74f03239f09e0001a5",
       "63701d74f032396b8e000020",
@@ -18947,7 +18947,7 @@ export const dataAttendee = [
     event: "LB",
     student_year: "Research Assistant I",
     phoneNumber: "9382253782",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db6900014a",
       "63701d74f032390a3400032f",
       "63701d74f0323986f300013a",
@@ -18964,7 +18964,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Automation Specialist III",
     phoneNumber: "4508799028",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394c49000134",
       "63701d74f03239b7f700001c",
       "63701d74f032395694000045",
@@ -18985,7 +18985,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Financial Advisor",
     phoneNumber: "6224197604",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e000197",
       "63701d74f032399c00000157",
       "63701d74f03239d591000352",
@@ -19002,7 +19002,7 @@ export const dataAttendee = [
     event: "KM",
     student_year: "Executive Secretary",
     phoneNumber: "9419588325",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000028",
       "63701d74f03239d40b000083",
       "63701d74f03239b7f700003b",
@@ -19026,7 +19026,7 @@ export const dataAttendee = [
     event: "AF",
     student_year: "Editor",
     phoneNumber: "1985831106",
-    transactions: ["63701d74f03239c72c0001b2", "63701d74f03239bef000012f"],
+    dataFinalists: ["63701d74f03239c72c0001b2", "63701d74f03239bef000012f"],
     role: "attendee",
   },
   {
@@ -19039,7 +19039,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Tax Accountant",
     phoneNumber: "7095138328",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b00007a",
       "63701d74f03239d81e000046",
       "63701d74f03239528f000037",
@@ -19059,7 +19059,7 @@ export const dataAttendee = [
     event: "CA",
     student_year: "Teacher",
     phoneNumber: "1999229985",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000035",
       "63701d74f0323986f3000153",
       "63701d74f032398675000143",
@@ -19078,7 +19078,7 @@ export const dataAttendee = [
     event: "PT",
     student_year: "Financial Analyst",
     phoneNumber: "3121990932",
-    transactions: ["63701d74f03239bef0000158", "63701d74f03239cdc500001f"],
+    dataFinalists: ["63701d74f03239bef0000158", "63701d74f03239cdc500001f"],
     role: "attendee",
   },
   {
@@ -19091,7 +19091,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Safety Technician II",
     phoneNumber: "6898002758",
-    transactions: ["63701d74f03239c72c0001ba", "63701d74f032395694000037"],
+    dataFinalists: ["63701d74f03239c72c0001ba", "63701d74f032395694000037"],
     role: "superadministrator",
   },
   {
@@ -19104,7 +19104,7 @@ export const dataAttendee = [
     event: "BD",
     student_year: "Sales Associate",
     phoneNumber: "7786587768",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000133",
       "63701d74f03239d591000339",
       "63701d74f03239f09e0001a4",
@@ -19128,7 +19128,7 @@ export const dataAttendee = [
     event: "ES",
     student_year: "Systems Administratoristrator I",
     phoneNumber: "7416440343",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e00002f",
       "63701d74f03239528f000039",
       "63701d74f03239f09e0001aa",
@@ -19150,7 +19150,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Project Manager",
     phoneNumber: "5779240200",
-    transactions: ["63701d74f03239d81e000026", "63701d74f032394441000315"],
+    dataFinalists: ["63701d74f03239d81e000026", "63701d74f032394441000315"],
     role: "administrator",
   },
   {
@@ -19163,7 +19163,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "GIS Technical Architect",
     phoneNumber: "6724144982",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f300015a",
       "63701d74f03239b7f7000026",
       "63701d74f03239cdc500003b",
@@ -19184,7 +19184,7 @@ export const dataAttendee = [
     event: "NG",
     student_year: "Nurse",
     phoneNumber: "1187156433",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f000035",
       "63701d74f03239b913000046",
       "63701d74f032396b8e00003d",
@@ -19203,7 +19203,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Biostatistician I",
     phoneNumber: "6033400991",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f7000034",
       "63701d74f032394c49000135",
       "63701d74f03239b7f7000021",
@@ -19222,7 +19222,7 @@ export const dataAttendee = [
     event: "PS",
     student_year: "Legal Assistant",
     phoneNumber: "6137536796",
-    transactions: ["63701d74f03239528f000022", "63701d74f032390a3400033d"],
+    dataFinalists: ["63701d74f03239528f000022", "63701d74f032390a3400033d"],
     role: "attendee",
   },
   {
@@ -19235,7 +19235,7 @@ export const dataAttendee = [
     event: "CZ",
     student_year: "Assistant Professor",
     phoneNumber: "3821687133",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000029",
       "63701d74f032398675000157",
       "63701d74f03239f09e00019d",
@@ -19257,7 +19257,7 @@ export const dataAttendee = [
     event: "GR",
     student_year: "Pharmacist",
     phoneNumber: "6037858916",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239444100031b",
       "63701d74f03239b7f700003b",
       "63701d74f03239c72c0001ab",
@@ -19277,7 +19277,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Senior Quality Engineer",
     phoneNumber: "1852280527",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b00005b",
       "63701d74f03239569400001e",
       "63701d74f032398675000156",
@@ -19300,7 +19300,7 @@ export const dataAttendee = [
     event: "KR",
     student_year: "Quality Control Specialist",
     phoneNumber: "9696292224",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000146",
       "63701d74f03239867500013c",
       "63701d74f032398675000134",
@@ -19318,7 +19318,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Safety Technician IV",
     phoneNumber: "1356228398",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b00008f",
       "63701d74f03239c72c00019a",
       "63701d74f032390a3400033d",
@@ -19336,7 +19336,7 @@ export const dataAttendee = [
     event: "PT",
     student_year: "Sales Representative",
     phoneNumber: "1555067306",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000130",
       "63701d74f03239528f00001f",
       "63701d74f032399c00000148",
@@ -19357,7 +19357,7 @@ export const dataAttendee = [
     event: "TH",
     student_year: "Analog Circuit Design manager",
     phoneNumber: "5605137846",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef0000137",
       "63701d74f032396b8e00003f",
       "63701d74f03239f09e0001aa",
@@ -19376,7 +19376,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Research Nurse",
     phoneNumber: "1041333724",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000038",
       "63701d74f03239f09e000193",
       "63701d74f03239d81e00003c",
@@ -19396,7 +19396,7 @@ export const dataAttendee = [
     event: "US",
     student_year: "VP Quality Control",
     phoneNumber: "7753956205",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239867500014e",
       "63701d74f03239b7f700002a",
       "63701d74f03239c72c000198",
@@ -19414,7 +19414,7 @@ export const dataAttendee = [
     event: "IE",
     student_year: "Staff Scientist",
     phoneNumber: "8117488476",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f300012e",
       "63701d74f03239d40b00005e",
       "63701d74f032395694000044",
@@ -19438,7 +19438,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Accounting Assistant I",
     phoneNumber: "3718592948",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b000085",
       "63701d74f032396b8e000022",
       "63701d74f032390a34000343",
@@ -19458,7 +19458,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Analyst Programmer",
     phoneNumber: "9749285416",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc5000041",
       "63701d74f032396b8e00002d",
       "63701d74f03239b913000045",
@@ -19476,7 +19476,7 @@ export const dataAttendee = [
     event: "DO",
     student_year: "Geological Engineer",
     phoneNumber: "5475430164",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001bb",
       "63701d74f032398675000142",
       "63701d74f03239b7f7000031",
@@ -19499,7 +19499,7 @@ export const dataAttendee = [
     event: "NI",
     student_year: "Assistant Media Planner",
     phoneNumber: "5983301528",
-    transactions: ["63701d74f032398675000133"],
+    dataFinalists: ["63701d74f032398675000133"],
     role: "superadministrator",
   },
   {
@@ -19512,7 +19512,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Sales Representative",
     phoneNumber: "3253849168",
-    transactions: [
+    dataFinalists: [
       "63701d74f032399c0000014e",
       "63701d74f03239c72c000199",
       "63701d74f032396b8e00002a",
@@ -19529,7 +19529,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Administratoristrative Officer",
     phoneNumber: "1704930868",
-    transactions: ["63701d74f03239528f00001e"],
+    dataFinalists: ["63701d74f03239528f00001e"],
     role: "superadministrator",
   },
   {
@@ -19542,7 +19542,7 @@ export const dataAttendee = [
     event: "JP",
     student_year: "Senior Quality Engineer",
     phoneNumber: "3603446896",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e00003c",
       "63701d74f03239b91300001d",
       "63701d74f032398675000155",
@@ -19560,7 +19560,7 @@ export const dataAttendee = [
     event: "GB",
     student_year: "Sales Associate",
     phoneNumber: "7072856622",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc5000038",
       "63701d74f03239d40b000060",
       "63701d74f03239db69000155",
@@ -19581,7 +19581,7 @@ export const dataAttendee = [
     event: "JP",
     student_year: "VP Quality Control",
     phoneNumber: "8018242131",
-    transactions: ["63701d74f03239d40b000088"],
+    dataFinalists: ["63701d74f03239d40b000088"],
     role: "superadministrator",
   },
   {
@@ -19594,7 +19594,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Programmer Analyst III",
     phoneNumber: "9953853099",
-    transactions: ["63701d74f03239d81e000022", "63701d74f03239d591000356"],
+    dataFinalists: ["63701d74f03239d81e000022", "63701d74f03239d591000356"],
     role: "attendee",
   },
   {
@@ -19607,7 +19607,7 @@ export const dataAttendee = [
     event: "CM",
     student_year: "Developer III",
     phoneNumber: "7619742687",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef0000148",
       "63701d74f03239444100031b",
       "63701d74f03239569400003d",
@@ -19631,7 +19631,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Electrical Engineer",
     phoneNumber: "2301162603",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000035",
       "63701d74f03239d40b000064",
       "63701d74f03239c72c0001ab",
@@ -19652,7 +19652,7 @@ export const dataAttendee = [
     event: "KG",
     student_year: "Paralegal",
     phoneNumber: "8256109065",
-    transactions: ["63701d74f03239c72c000198", "63701d74f03239f09e0001ad"],
+    dataFinalists: ["63701d74f03239c72c000198", "63701d74f03239f09e0001ad"],
     role: "superadministrator",
   },
   {
@@ -19665,7 +19665,7 @@ export const dataAttendee = [
     event: "LS",
     student_year: "Staff Scientist",
     phoneNumber: "6014630516",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e000046",
       "63701d74f03239b7f700001f",
       "63701d74f03239bef0000152",
@@ -19689,7 +19689,7 @@ export const dataAttendee = [
     event: "ZA",
     student_year: "Geological Engineer",
     phoneNumber: "5699300741",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f000043",
       "63701d74f03239bef0000145",
       "63701d74f03239cdc500003e",
@@ -19707,7 +19707,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Nurse",
     phoneNumber: "7415327989",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000020",
       "63701d74f032394441000317",
       "63701d74f032390a34000333",
@@ -19729,7 +19729,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Web Developer II",
     phoneNumber: "2094454888",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f00001e",
       "63701d74f03239b7f700001b",
       "63701d74f032390a3400032d",
@@ -19746,7 +19746,7 @@ export const dataAttendee = [
     event: "BG",
     student_year: "Programmer III",
     phoneNumber: "2655848073",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f00002e",
       "63701d74f03239f09e0001b2",
       "63701d74f032390a34000335",
@@ -19769,7 +19769,7 @@ export const dataAttendee = [
     event: "PE",
     student_year: "Research Assistant III",
     phoneNumber: "6918035213",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000154",
       "63701d74f03239c72c0001b5",
       "63701d74f03239569400002f",
@@ -19789,7 +19789,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Technical Writer",
     phoneNumber: "3439067141",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000131",
       "63701d74f032390a34000357",
       "63701d74f032395694000046",
@@ -19813,7 +19813,7 @@ export const dataAttendee = [
     event: "NZ",
     student_year: "Mechanical Systems Engineer",
     phoneNumber: "4482405446",
-    transactions: [
+    dataFinalists: [
       "63701d74f032398675000144",
       "63701d74f03239d59100033b",
       "63701d74f032394c4900014d",
@@ -19837,7 +19837,7 @@ export const dataAttendee = [
     event: "IE",
     student_year: "Help Desk Operator",
     phoneNumber: "2339365013",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc5000036",
       "63701d74f03239bef000013b",
       "63701d74f03239b7f7000033",
@@ -19856,7 +19856,7 @@ export const dataAttendee = [
     event: "SE",
     student_year: "Social Worker",
     phoneNumber: "8559449812",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239867500014e",
       "63701d74f03239d81e00003a",
       "63701d74f03239f09e0001b4",
@@ -19877,7 +19877,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Assistant Media Planner",
     phoneNumber: "6306556173",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000133",
       "63701d74f03239528f000044",
       "63701d74f03239d81e000027",
@@ -19894,7 +19894,7 @@ export const dataAttendee = [
     event: "SE",
     student_year: "Marketing Assistant",
     phoneNumber: "4484662304",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001bf",
       "63701d74f032396b8e000023",
       "63701d74f03239d81e000033",
@@ -19918,7 +19918,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Nurse Practicioner",
     phoneNumber: "2736698532",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b000069",
       "63701d74f03239d81e000025",
       "63701d74f03239d81e00001e",
@@ -19935,7 +19935,7 @@ export const dataAttendee = [
     event: "HN",
     student_year: "Operator",
     phoneNumber: "2732328689",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395694000023",
       "63701d74f0323986f300013a",
       "63701d74f03239bef0000141",
@@ -19954,7 +19954,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Software Engineer II",
     phoneNumber: "8921442343",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000044",
       "63701d74f03239b7f7000046",
       "63701d74f03239f09e0001b1",
@@ -19977,7 +19977,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Tax Accountant",
     phoneNumber: "4265153214",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395b33000144",
       "63701d74f032390a34000341",
       "63701d74f03239c72c0001b7",
@@ -19996,7 +19996,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Registered Nurse",
     phoneNumber: "9605925245",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239867500014e",
       "63701d74f032394441000313",
       "63701d74f03239b7f7000021",
@@ -20017,7 +20017,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Account Executive",
     phoneNumber: "6615477949",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b00007c",
       "63701d74f032394441000304",
       "63701d74f0323986f3000146",
@@ -20036,7 +20036,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Recruiting Manager",
     phoneNumber: "9031059880",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e00002e",
       "63701d74f03239d40b00005d",
       "63701d74f032390a34000350",
@@ -20059,7 +20059,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "VP Product Management",
     phoneNumber: "9343614857",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e000038",
       "63701d74f03239569400001e",
       "63701d74f03239528f000033",
@@ -20082,7 +20082,7 @@ export const dataAttendee = [
     event: "IR",
     student_year: "Assistant Manager",
     phoneNumber: "6262613312",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000024",
       "63701d74f03239528f000039",
       "63701d74f032394441000307",
@@ -20104,7 +20104,7 @@ export const dataAttendee = [
     event: "BR",
     student_year: "Design Engineer",
     phoneNumber: "3371795826",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef000012e",
       "63701d74f03239bef0000153",
       "63701d74f032394c49000136",
@@ -20122,7 +20122,7 @@ export const dataAttendee = [
     event: "UA",
     student_year: "Community Outreach Specialist",
     phoneNumber: "3395557818",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e00003e",
       "63701d74f032396b8e000043",
       "63701d74f03239569400002d",
@@ -20142,7 +20142,7 @@ export const dataAttendee = [
     event: "SY",
     student_year: "Assistant Professor",
     phoneNumber: "1789497142",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000139",
       "63701d74f03239d81e000024",
       "63701d74f03239f09e0001a0",
@@ -20163,7 +20163,7 @@ export const dataAttendee = [
     event: "US",
     student_year: "VP Accounting",
     phoneNumber: "4238320854",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239867500014f",
       "63701d74f03239db6900013b",
       "63701d74f032395694000030",
@@ -20180,7 +20180,7 @@ export const dataAttendee = [
     event: "SY",
     student_year: "Social Worker",
     phoneNumber: "7859555742",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a3400034d",
       "63701d74f03239b91300002e",
       "63701d74f0323986f3000134",
@@ -20203,7 +20203,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Payment Adjustment Coordinator",
     phoneNumber: "1465365517",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef000015a",
       "63701d74f03239cdc500003a",
       "63701d74f03239cdc5000032",
@@ -20221,7 +20221,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Mechanical Systems Engineer",
     phoneNumber: "4964737668",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e000036",
       "63701d74f03239569400003b",
       "63701d74f03239cdc500003f",
@@ -20243,7 +20243,7 @@ export const dataAttendee = [
     event: "DK",
     student_year: "Senior Financial Analyst",
     phoneNumber: "5698456614",
-    transactions: [
+    dataFinalists: [
       "63701d74f032399c0000015b",
       "63701d74f03239d591000336",
       "63701d74f03239f09e0001b7",
@@ -20267,7 +20267,7 @@ export const dataAttendee = [
     event: "MX",
     student_year: "Assistant Professor",
     phoneNumber: "4011804307",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b00008e",
       "63701d74f03239b7f700002b",
       "63701d74f03239c72c0001b2",
@@ -20287,7 +20287,7 @@ export const dataAttendee = [
     event: "MK",
     student_year: "Computer Systems Analyst II",
     phoneNumber: "2414514554",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b000059",
       "63701d74f032395b3300015a",
       "63701d74f032394c49000133",
@@ -20306,7 +20306,7 @@ export const dataAttendee = [
     event: "CZ",
     student_year: "Assistant Professor",
     phoneNumber: "4089485198",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e0001b8",
       "63701d74f03239d59100032b",
       "63701d74f03239f09e00019e",
@@ -20329,7 +20329,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Sales Associate",
     phoneNumber: "9578254739",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001b0",
       "63701d74f03239b7f7000033",
       "63701d74f032394c49000148",
@@ -20353,7 +20353,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Clinical Specialist",
     phoneNumber: "1931490915",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000151",
       "63701d74f03239b7f7000045",
       "63701d74f0323986f300012e",
@@ -20377,7 +20377,7 @@ export const dataAttendee = [
     event: "PT",
     student_year: "Automation Specialist IV",
     phoneNumber: "3116252189",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000041",
       "63701d74f03239b7f7000043",
       "63701d74f032390a3400034b",
@@ -20400,7 +20400,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Safety Technician III",
     phoneNumber: "5498736984",
-    transactions: ["63701d74f032399c00000156"],
+    dataFinalists: ["63701d74f032399c00000156"],
     role: "attendee",
   },
   {
@@ -20413,7 +20413,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Senior Developer",
     phoneNumber: "9499366779",
-    transactions: ["63701d74f03239d81e000033", "63701d74f03239c72c0001a5"],
+    dataFinalists: ["63701d74f03239d81e000033", "63701d74f03239c72c0001a5"],
     role: "attendee",
   },
   {
@@ -20426,7 +20426,7 @@ export const dataAttendee = [
     event: "MN",
     student_year: "Marketing Assistant",
     phoneNumber: "4424591122",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b91300003d",
       "63701d74f03239f09e0001ba",
       "63701d74f03239867500013f",
@@ -20444,7 +20444,7 @@ export const dataAttendee = [
     event: "MX",
     student_year: "Chief Design Engineer",
     phoneNumber: "8236731636",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000033",
       "63701d74f03239d59100033f",
       "63701d74f03239d40b000067",
@@ -20467,7 +20467,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Assistant Media Planner",
     phoneNumber: "3708160950",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323944410002f9",
       "63701d74f03239569400002e",
       "63701d74f03239b7f7000021",
@@ -20486,7 +20486,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Accounting Assistant I",
     phoneNumber: "1582510979",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001ba",
       "63701d74f032396b8e00003e",
       "63701d74f032395b33000136",
@@ -20506,7 +20506,7 @@ export const dataAttendee = [
     event: "JP",
     student_year: "Computer Systems Analyst II",
     phoneNumber: "8012406017",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a34000356",
       "63701d74f03239d591000332",
       "63701d74f03239867500014d",
@@ -20526,7 +20526,7 @@ export const dataAttendee = [
     event: "JP",
     student_year: "Financial Advisor",
     phoneNumber: "2309923598",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394c49000151",
       "63701d74f032394c49000148",
       "63701d74f032390a34000333",
@@ -20545,7 +20545,7 @@ export const dataAttendee = [
     event: "KM",
     student_year: "Marketing Assistant",
     phoneNumber: "9251077758",
-    transactions: [
+    dataFinalists: [
       "63701d74f032399c00000138",
       "63701d74f03239bef000012e",
       "63701d74f03239bef000014e",
@@ -20568,7 +20568,7 @@ export const dataAttendee = [
     event: "BY",
     student_year: "Information Systems Manager",
     phoneNumber: "2275289998",
-    transactions: ["63701d74f03239db69000137", "63701d74f032394c49000134"],
+    dataFinalists: ["63701d74f03239db69000137", "63701d74f032394c49000134"],
     role: "attendee",
   },
   {
@@ -20581,7 +20581,7 @@ export const dataAttendee = [
     event: "PT",
     student_year: "Legal Assistant",
     phoneNumber: "9106965949",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e00001f",
       "63701d74f032394c4900015a",
       "63701d74f03239d591000347",
@@ -20599,7 +20599,7 @@ export const dataAttendee = [
     event: "DO",
     student_year: "Structural Analysis Engineer",
     phoneNumber: "2093465942",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a34000357",
       "63701d74f032396b8e000026",
       "63701d74f03239d591000351",
@@ -20618,7 +20618,7 @@ export const dataAttendee = [
     event: "NG",
     student_year: "Operator",
     phoneNumber: "7153715824",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e00019f",
       "63701d74f0323986f3000140",
       "63701d74f0323944410002fe",
@@ -20635,7 +20635,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Desktop Support Technician",
     phoneNumber: "2856031437",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e000023",
       "63701d74f03239d81e000024",
       "63701d74f032399c00000141",
@@ -20658,7 +20658,7 @@ export const dataAttendee = [
     event: "UG",
     student_year: "GIS Technical Architect",
     phoneNumber: "6789537591",
-    transactions: ["63701d74f03239f09e0001aa"],
+    dataFinalists: ["63701d74f03239f09e0001aa"],
     role: "administrator",
   },
   {
@@ -20671,7 +20671,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Structural Analysis Engineer",
     phoneNumber: "2808160883",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e00002b",
       "63701d74f03239db69000143",
       "63701d74f032399c00000155",
@@ -20688,7 +20688,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Teacher",
     phoneNumber: "8182331761",
-    transactions: ["63701d74f03239528f00003f"],
+    dataFinalists: ["63701d74f03239528f00003f"],
     role: "administrator",
   },
   {
@@ -20701,7 +20701,7 @@ export const dataAttendee = [
     event: "CZ",
     student_year: "Food Chemist",
     phoneNumber: "1746964138",
-    transactions: [
+    dataFinalists: [
       "63701d74f032399c00000152",
       "63701d74f03239d81e000043",
       "63701d74f03239cdc5000027",
@@ -20722,7 +20722,7 @@ export const dataAttendee = [
     event: "PT",
     student_year: "Graphic Designer",
     phoneNumber: "4954233926",
-    transactions: ["63701d74f0323986f3000158"],
+    dataFinalists: ["63701d74f0323986f3000158"],
     role: "administrator",
   },
   {
@@ -20735,7 +20735,7 @@ export const dataAttendee = [
     event: "SY",
     student_year: "Human Resources Assistant II",
     phoneNumber: "2194717059",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db6900014b",
       "63701d74f032395b33000152",
       "63701d74f03239528f00001b",
@@ -20754,7 +20754,7 @@ export const dataAttendee = [
     event: "PE",
     student_year: "Statistician IV",
     phoneNumber: "5178518229",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000153",
       "63701d74f032395694000026",
       "63701d74f03239cdc500001d",
@@ -20777,7 +20777,7 @@ export const dataAttendee = [
     event: "MM",
     student_year: "Staff Scientist",
     phoneNumber: "8407684689",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f00003c",
       "63701d74f03239b7f7000033",
       "63701d74f03239d81e000031",
@@ -20798,7 +20798,7 @@ export const dataAttendee = [
     event: "TH",
     student_year: "Account Executive",
     phoneNumber: "1151128382",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000144",
       "63701d74f032394441000311",
       "63701d74f03239cdc5000022",
@@ -20817,7 +20817,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Programmer III",
     phoneNumber: "5251776383",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc5000031",
       "63701d74f03239c72c0001a3",
       "63701d74f03239c72c0001b4",
@@ -20840,7 +20840,7 @@ export const dataAttendee = [
     event: "JP",
     student_year: "Clinical Specialist",
     phoneNumber: "7552610177",
-    transactions: ["63701d74f03239d591000330"],
+    dataFinalists: ["63701d74f03239d591000330"],
     role: "administrator",
   },
   {
@@ -20853,7 +20853,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "VP Sales",
     phoneNumber: "3663656410",
-    transactions: ["63701d74f03239d591000331", "63701d74f03239b7f700003c"],
+    dataFinalists: ["63701d74f03239d591000331", "63701d74f03239b7f700003c"],
     role: "attendee",
   },
   {
@@ -20866,7 +20866,7 @@ export const dataAttendee = [
     event: "SE",
     student_year: "Senior Financial Analyst",
     phoneNumber: "1769093878",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e00003f",
       "63701d74f03239f09e00019d",
       "63701d74f03239d40b000063",
@@ -20883,7 +20883,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Structural Engineer",
     phoneNumber: "5823912564",
-    transactions: ["63701d74f032396b8e000031", "63701d74f032399c0000014f"],
+    dataFinalists: ["63701d74f032396b8e000031", "63701d74f032399c0000014f"],
     role: "administrator",
   },
   {
@@ -20896,7 +20896,7 @@ export const dataAttendee = [
     event: "BW",
     student_year: "Dental Hygienist",
     phoneNumber: "1084138384",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc500001f",
       "63701d74f03239d40b000061",
       "63701d74f032396b8e000028",
@@ -20917,7 +20917,7 @@ export const dataAttendee = [
     event: "IE",
     student_year: "Developer I",
     phoneNumber: "4125426191",
-    transactions: [
+    dataFinalists: [
       "63701d74f032399c00000152",
       "63701d74f03239db69000157",
       "63701d74f032394c49000143",
@@ -20937,7 +20937,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Librarian",
     phoneNumber: "7102447299",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a34000355",
       "63701d74f032394c4900015a",
       "63701d74f03239b7f700003a",
@@ -20958,7 +20958,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Technical Writer",
     phoneNumber: "2974742370",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b00005c",
       "63701d74f032395b33000139",
       "63701d74f032390a3400033f",
@@ -20980,7 +20980,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Analyst Programmer",
     phoneNumber: "2824294579",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e0001ba",
       "63701d74f03239528f000021",
       "63701d74f0323944410002f0",
@@ -21000,7 +21000,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Information Systems Manager",
     phoneNumber: "2028158686",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef000014b",
       "63701d74f032396b8e000026",
       "63701d74f032394c49000131",
@@ -21017,7 +21017,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Budget/Accounting Analyst III",
     phoneNumber: "6172153852",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f00002f",
       "63701d74f03239c72c00019d",
       "63701d74f03239b7f700001f",
@@ -21040,7 +21040,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Speech Pathologist",
     phoneNumber: "4441745606",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394c4900014f",
       "63701d74f032395b33000139",
       "63701d74f032395b33000137",
@@ -21059,7 +21059,7 @@ export const dataAttendee = [
     event: "NG",
     student_year: "Administratoristrative Officer",
     phoneNumber: "2949542247",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000019",
       "63701d74f03239b7f7000029",
       "63701d74f032394c4900014c",
@@ -21081,7 +21081,7 @@ export const dataAttendee = [
     event: "BW",
     student_year: "Help Desk Operator",
     phoneNumber: "1173556780",
-    transactions: ["63701d74f032398675000157"],
+    dataFinalists: ["63701d74f032398675000157"],
     role: "administrator",
   },
   {
@@ -21094,7 +21094,7 @@ export const dataAttendee = [
     event: "BR",
     student_year: "Financial Analyst",
     phoneNumber: "4005528996",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b91300002b",
       "63701d74f032396b8e00002b",
       "63701d74f03239d59100034a",
@@ -21113,7 +21113,7 @@ export const dataAttendee = [
     event: "VN",
     student_year: "Senior Financial Analyst",
     phoneNumber: "1759249891",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a3400032f",
       "63701d74f03239d591000341",
       "63701d74f03239d591000346",
@@ -21134,7 +21134,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Engineer II",
     phoneNumber: "5133052964",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000139",
       "63701d74f032396b8e000027",
       "63701d74f03239db69000146",
@@ -21156,7 +21156,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Budget/Accounting Analyst IV",
     phoneNumber: "7532752819",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c000199",
       "63701d74f032395b3300012f",
       "63701d74f032395694000043",
@@ -21173,7 +21173,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "VP Sales",
     phoneNumber: "1549139775",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db6900013d",
       "63701d74f032394c4900013d",
       "63701d74f03239d40b00007a",
@@ -21195,7 +21195,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Data Coordiator",
     phoneNumber: "3105428793",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000159",
       "63701d74f03239528f000034",
       "63701d74f03239c72c000195",
@@ -21216,7 +21216,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Web Designer IV",
     phoneNumber: "8757912496",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b91300001b",
       "63701d74f03239528f000038",
       "63701d74f032395694000032",
@@ -21239,7 +21239,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Human Resources Manager",
     phoneNumber: "7699277602",
-    transactions: ["63701d74f032395694000024", "63701d74f03239569400002c"],
+    dataFinalists: ["63701d74f032395694000024", "63701d74f03239569400002c"],
     role: "administrator",
   },
   {
@@ -21252,7 +21252,7 @@ export const dataAttendee = [
     event: "IE",
     student_year: "Account Representative II",
     phoneNumber: "7229851270",
-    transactions: ["63701d74f032394c49000131", "63701d74f032394441000301"],
+    dataFinalists: ["63701d74f032394c49000131", "63701d74f032394441000301"],
     role: "superadministrator",
   },
   {
@@ -21265,7 +21265,7 @@ export const dataAttendee = [
     event: "IR",
     student_year: "Programmer Analyst III",
     phoneNumber: "9134600793",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395694000044",
       "63701d74f03239d591000353",
       "63701d74f032390a34000337",
@@ -21287,7 +21287,7 @@ export const dataAttendee = [
     event: "GR",
     student_year: "Geological Engineer",
     phoneNumber: "1966060890",
-    transactions: ["63701d74f03239b7f700002b"],
+    dataFinalists: ["63701d74f03239b7f700002b"],
     role: "administrator",
   },
   {
@@ -21300,7 +21300,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Media Manager II",
     phoneNumber: "2938795844",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f300013e",
       "63701d74f03239db6900012e",
       "63701d74f032398675000134",
@@ -21323,7 +21323,7 @@ export const dataAttendee = [
     event: "CO",
     student_year: "Senior Sales Associate",
     phoneNumber: "9501955139",
-    transactions: [
+    dataFinalists: [
       "63701d74f032399c00000142",
       "63701d74f03239c72c00019b",
       "63701d74f03239db69000144",
@@ -21344,7 +21344,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Graphic Designer",
     phoneNumber: "6651455730",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001b7",
       "63701d74f03239db69000152",
       "63701d74f03239d81e000040",
@@ -21363,7 +21363,7 @@ export const dataAttendee = [
     event: "TH",
     student_year: "Biostatistician III",
     phoneNumber: "6265850585",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000037",
       "63701d74f03239867500014d",
       "63701d74f03239d40b00007e",
@@ -21383,7 +21383,7 @@ export const dataAttendee = [
     event: "SA",
     student_year: "Statistician I",
     phoneNumber: "1363061978",
-    transactions: ["63701d74f032396b8e00003c", "63701d74f03239d81e00001e"],
+    dataFinalists: ["63701d74f032396b8e00003c", "63701d74f03239d81e00001e"],
     role: "attendee",
   },
   {
@@ -21396,7 +21396,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Nurse Practicioner",
     phoneNumber: "4261666753",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323944410002fd",
       "63701d74f03239528f000033",
       "63701d74f0323986f3000158",
@@ -21420,7 +21420,7 @@ export const dataAttendee = [
     event: "BR",
     student_year: "Help Desk Technician",
     phoneNumber: "8124690297",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000032",
       "63701d74f03239f09e0001ae",
       "63701d74f03239d40b00008f",
@@ -21439,7 +21439,7 @@ export const dataAttendee = [
     event: "NG",
     student_year: "Food Chemist",
     phoneNumber: "4354770989",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d59100033f",
       "63701d74f032398675000144",
       "63701d74f03239c72c000193",
@@ -21463,7 +21463,7 @@ export const dataAttendee = [
     event: "US",
     student_year: "Recruiting Manager",
     phoneNumber: "7549360846",
-    transactions: ["63701d74f03239b7f700003f", "63701d74f032395b33000147"],
+    dataFinalists: ["63701d74f03239b7f700003f", "63701d74f032395b33000147"],
     role: "attendee",
   },
   {
@@ -21476,7 +21476,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Recruiting Manager",
     phoneNumber: "6607612018",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f000039",
       "63701d74f03239f09e00019a",
       "63701d74f03239f09e0001b4",
@@ -21500,7 +21500,7 @@ export const dataAttendee = [
     event: "BR",
     student_year: "Dental Hygienist",
     phoneNumber: "9878239334",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d591000333",
       "63701d74f03239867500014e",
       "63701d74f032395694000037",
@@ -21518,7 +21518,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Operator",
     phoneNumber: "7328227068",
-    transactions: ["63701d74f0323986f3000144", "63701d74f03239f09e0001ad"],
+    dataFinalists: ["63701d74f0323986f3000144", "63701d74f03239f09e0001ad"],
     role: "superadministrator",
   },
   {
@@ -21531,7 +21531,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Software Test Engineer IV",
     phoneNumber: "6382906360",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f00001e",
       "63701d74f03239569400003a",
       "63701d74f03239cdc5000019",
@@ -21549,7 +21549,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Human Resources Manager",
     phoneNumber: "1742030156",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323944410002f5",
       "63701d74f032396b8e000020",
       "63701d74f03239d81e00001f",
@@ -21573,7 +21573,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Internal Auditor",
     phoneNumber: "9366408044",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e00001e",
       "63701d74f032399c00000152",
       "63701d74f03239db69000131",
@@ -21591,7 +21591,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Automation Specialist I",
     phoneNumber: "5008392811",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239867500013f",
       "63701d74f03239528f00001d",
       "63701d74f03239b913000035",
@@ -21614,7 +21614,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Software Test Engineer III",
     phoneNumber: "5527391141",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001a3",
       "63701d74f03239bef000013e",
       "63701d74f032396b8e00003c",
@@ -21633,7 +21633,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Account Representative III",
     phoneNumber: "1405174082",
-    transactions: ["63701d74f0323986f300015a"],
+    dataFinalists: ["63701d74f0323986f300015a"],
     role: "attendee",
   },
   {
@@ -21646,7 +21646,7 @@ export const dataAttendee = [
     event: "JP",
     student_year: "Marketing Manager",
     phoneNumber: "8719646791",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f700001a",
       "63701d74f032395b33000142",
       "63701d74f03239528f000024",
@@ -21663,7 +21663,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Automation Specialist III",
     phoneNumber: "6994420029",
-    transactions: ["63701d74f032398675000132"],
+    dataFinalists: ["63701d74f032398675000132"],
     role: "superadministrator",
   },
   {
@@ -21676,7 +21676,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Technical Writer",
     phoneNumber: "2682969782",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f7000030",
       "63701d74f032399c00000156",
       "63701d74f03239d81e000040",
@@ -21699,7 +21699,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Account Coordinator",
     phoneNumber: "2403130928",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000150",
       "63701d74f032390a3400032d",
       "63701d74f03239d81e00001c",
@@ -21721,7 +21721,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Office Assistant IV",
     phoneNumber: "9917697014",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc5000042",
       "63701d74f03239cdc500002f",
       "63701d74f032399c00000150",
@@ -21741,7 +21741,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Nurse Practicioner",
     phoneNumber: "5203905716",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f7000041",
       "63701d74f03239528f00002b",
       "63701d74f032396b8e000028",
@@ -21763,7 +21763,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Marketing Manager",
     phoneNumber: "8607459755",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f300013c",
       "63701d74f03239db6900013b",
       "63701d74f03239d591000335",
@@ -21781,7 +21781,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Quality Engineer",
     phoneNumber: "8639238777",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d591000343",
       "63701d74f0323986f3000148",
       "63701d74f03239d40b00008f",
@@ -21799,7 +21799,7 @@ export const dataAttendee = [
     event: "JP",
     student_year: "Accounting Assistant I",
     phoneNumber: "4401038462",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef0000139",
       "63701d74f03239b7f700002a",
       "63701d74f03239f09e0001bc",
@@ -21819,7 +21819,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Biostatistician IV",
     phoneNumber: "8377177996",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b000061",
       "63701d74f03239db6900013f",
       "63701d74f032396b8e000019",
@@ -21837,7 +21837,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Food Chemist",
     phoneNumber: "3431559118",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395b3300014a",
       "63701d74f03239d40b00006a",
       "63701d74f03239c72c00019a",
@@ -21856,7 +21856,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Environmental Specialist",
     phoneNumber: "8971477869",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f300013e",
       "63701d74f0323944410002fb",
       "63701d74f03239b7f7000027",
@@ -21875,7 +21875,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Recruiting Manager",
     phoneNumber: "5344323867",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d591000344",
       "63701d74f032398675000143",
       "63701d74f032390a34000335",
@@ -21899,7 +21899,7 @@ export const dataAttendee = [
     event: "CU",
     student_year: "Senior Editor",
     phoneNumber: "1771102859",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f7000039",
       "63701d74f0323986f3000133",
       "63701d74f03239528f00003b",
@@ -21916,7 +21916,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Registered Nurse",
     phoneNumber: "4314563977",
-    transactions: ["63701d74f032399c0000012f", "63701d74f032390a34000350"],
+    dataFinalists: ["63701d74f032399c0000012f", "63701d74f032390a34000350"],
     role: "attendee",
   },
   {
@@ -21929,7 +21929,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Financial Analyst",
     phoneNumber: "5978225150",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e000031",
       "63701d74f0323944410002f6",
       "63701d74f03239f09e0001a3",
@@ -21949,7 +21949,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Senior Developer",
     phoneNumber: "8132295154",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc5000031",
       "63701d74f032398675000157",
       "63701d74f03239528f00003e",
@@ -21966,7 +21966,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Assistant Manager",
     phoneNumber: "8138111612",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001a0",
       "63701d74f032390a34000333",
       "63701d74f03239b7f700003a",
@@ -21986,7 +21986,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Junior Executive",
     phoneNumber: "2391023260",
-    transactions: ["63701d74f032395b3300014a", "63701d74f03239d40b00008e"],
+    dataFinalists: ["63701d74f032395b3300014a", "63701d74f03239d40b00008e"],
     role: "attendee",
   },
   {
@@ -21999,7 +21999,7 @@ export const dataAttendee = [
     event: "LB",
     student_year: "Staff Accountant IV",
     phoneNumber: "8452757871",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a34000353",
       "63701d74f03239d59100032c",
       "63701d74f032399c00000145",
@@ -22017,7 +22017,7 @@ export const dataAttendee = [
     event: "AR",
     student_year: "Payment Adjustment Coordinator",
     phoneNumber: "4946177794",
-    transactions: ["63701d74f03239f09e0001ae"],
+    dataFinalists: ["63701d74f03239f09e0001ae"],
     role: "attendee",
   },
   {
@@ -22030,7 +22030,7 @@ export const dataAttendee = [
     event: "CZ",
     student_year: "Software Test Engineer III",
     phoneNumber: "6319197062",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a34000336",
       "63701d74f03239db69000157",
       "63701d74f03239444100030a",
@@ -22053,7 +22053,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Automation Specialist IV",
     phoneNumber: "6926244944",
-    transactions: ["63701d74f032394c4900014a", "63701d74f03239528f00002c"],
+    dataFinalists: ["63701d74f032394c4900014a", "63701d74f03239528f00002c"],
     role: "administrator",
   },
   {
@@ -22066,7 +22066,7 @@ export const dataAttendee = [
     event: "RS",
     student_year: "Internal Auditor",
     phoneNumber: "7416336142",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000036",
       "63701d74f03239cdc5000036",
       "63701d74f032396b8e00002f",
@@ -22090,7 +22090,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Environmental Specialist",
     phoneNumber: "6592858577",
-    transactions: [
+    dataFinalists: [
       "63701d74f032399c00000142",
       "63701d74f032395b3300015b",
       "63701d74f032394c49000155",
@@ -22107,7 +22107,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Senior Editor",
     phoneNumber: "6617428670",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000140",
       "63701d74f03239c72c000199",
       "63701d74f03239d40b00005c",
@@ -22126,7 +22126,7 @@ export const dataAttendee = [
     event: "SI",
     student_year: "Dental Hygienist",
     phoneNumber: "1415070380",
-    transactions: [
+    dataFinalists: [
       "63701d74f032399c0000013a",
       "63701d74f03239bef0000152",
       "63701d74f03239bef000014c",
@@ -22147,7 +22147,7 @@ export const dataAttendee = [
     event: "AR",
     student_year: "Structural Engineer",
     phoneNumber: "7062098184",
-    transactions: ["63701d74f032396b8e000040", "63701d74f03239b91300002d"],
+    dataFinalists: ["63701d74f032396b8e000040", "63701d74f03239b91300002d"],
     role: "attendee",
   },
   {
@@ -22160,7 +22160,7 @@ export const dataAttendee = [
     event: "PT",
     student_year: "Statistician IV",
     phoneNumber: "2149891338",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f7000045",
       "63701d74f032398675000151",
       "63701d74f03239d591000349",
@@ -22183,7 +22183,7 @@ export const dataAttendee = [
     event: "US",
     student_year: "Chief Design Engineer",
     phoneNumber: "9168358666",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e00001c",
       "63701d74f032399c00000151",
       "63701d74f03239d40b00006a",
@@ -22201,7 +22201,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Marketing Manager",
     phoneNumber: "5721620329",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000137",
       "63701d74f03239c72c000193",
       "63701d74f03239d40b000063",
@@ -22225,7 +22225,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Software Engineer I",
     phoneNumber: "5624141422",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001be",
       "63701d74f032394c49000146",
       "63701d74f032394441000306",
@@ -22249,7 +22249,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "General Manager",
     phoneNumber: "4367703353",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000034",
       "63701d74f03239c72c0001a8",
       "63701d74f03239d81e00003d",
@@ -22268,7 +22268,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Recruiter",
     phoneNumber: "5203611244",
-    transactions: ["63701d74f03239d40b00008b", "63701d74f03239db69000145"],
+    dataFinalists: ["63701d74f03239d40b00008b", "63701d74f03239db69000145"],
     role: "administrator",
   },
   {
@@ -22281,7 +22281,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Help Desk Operator",
     phoneNumber: "6796306973",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239f09e0001a4",
       "63701d74f03239db6900013d",
       "63701d74f03239cdc500002c",
@@ -22301,7 +22301,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Human Resources Manager",
     phoneNumber: "6342507788",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d40b000073",
       "63701d74f032394c49000145",
       "63701d74f03239d40b00006e",
@@ -22322,7 +22322,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Marketing Manager",
     phoneNumber: "1194681935",
-    transactions: [
+    dataFinalists: [
       "63701d74f032399c00000147",
       "63701d74f03239bef0000148",
       "63701d74f032396b8e000029",
@@ -22341,7 +22341,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Web Developer III",
     phoneNumber: "3014361855",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001a3",
       "63701d74f032390a34000344",
       "63701d74f03239db69000130",
@@ -22361,7 +22361,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Software Consultant",
     phoneNumber: "6327630529",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f300013b",
       "63701d74f03239cdc5000038",
       "63701d74f03239b7f700001e",
@@ -22383,7 +22383,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Business Systems Development Analyst",
     phoneNumber: "3848778104",
-    transactions: ["63701d74f03239cdc500003b", "63701d74f03239d40b000089"],
+    dataFinalists: ["63701d74f03239cdc500003b", "63701d74f03239d40b000089"],
     role: "attendee",
   },
   {
@@ -22396,7 +22396,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Analyst Programmer",
     phoneNumber: "2095279022",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394441000307",
       "63701d74f03239d591000335",
       "63701d74f032395b33000152",
@@ -22420,7 +22420,7 @@ export const dataAttendee = [
     event: "AR",
     student_year: "Desktop Support Technician",
     phoneNumber: "6601817739",
-    transactions: ["63701d74f0323986f300014d"],
+    dataFinalists: ["63701d74f0323986f300014d"],
     role: "superadministrator",
   },
   {
@@ -22433,7 +22433,7 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Software Test Engineer IV",
     phoneNumber: "7542221334",
-    transactions: ["63701d74f032394c49000151", "63701d74f03239d40b000080"],
+    dataFinalists: ["63701d74f032394c49000151", "63701d74f03239d40b000080"],
     role: "superadministrator",
   },
   {
@@ -22446,7 +22446,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "VP Sales",
     phoneNumber: "4102440627",
-    transactions: [
+    dataFinalists: [
       "63701d74f032395b33000145",
       "63701d74f0323986f3000148",
       "63701d74f0323944410002f4",
@@ -22463,7 +22463,7 @@ export const dataAttendee = [
     event: "AL",
     student_year: "Quality Engineer",
     phoneNumber: "2264803495",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef0000132",
       "63701d74f0323986f3000133",
       "63701d74f032395694000038",
@@ -22487,7 +22487,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "VP Marketing",
     phoneNumber: "3099635129",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001a4",
       "63701d74f03239cdc500003a",
       "63701d74f03239db6900015b",
@@ -22505,7 +22505,7 @@ export const dataAttendee = [
     event: "NP",
     student_year: "Marketing Assistant",
     phoneNumber: "7006762962",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc5000041",
       "63701d74f032390a34000345",
       "63701d74f032395694000029",
@@ -22524,7 +22524,7 @@ export const dataAttendee = [
     event: "PL",
     student_year: "Librarian",
     phoneNumber: "4358315887",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b7f700001c",
       "63701d74f03239f09e000198",
       "63701d74f032396b8e000044",
@@ -22541,7 +22541,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Research Associate",
     phoneNumber: "5967332894",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239cdc5000031",
       "63701d74f03239d81e000038",
       "63701d74f03239bef0000133",
@@ -22563,7 +22563,7 @@ export const dataAttendee = [
     event: "JO",
     student_year: "Staff Scientist",
     phoneNumber: "9187433652",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394c4900015b",
       "63701d74f03239d81e00002f",
       "63701d74f0323986f300013a",
@@ -22580,7 +22580,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Desktop Support Technician",
     phoneNumber: "1509929715",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db6900014c",
       "63701d74f03239db69000152",
       "63701d74f032399c0000014e",
@@ -22603,7 +22603,7 @@ export const dataAttendee = [
     event: "CZ",
     student_year: "Account Coordinator",
     phoneNumber: "9993343715",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db6900014d",
       "63701d74f03239f09e00019d",
       "63701d74f032399c00000156",
@@ -22625,7 +22625,7 @@ export const dataAttendee = [
     event: "ZA",
     student_year: "Analog Circuit Design manager",
     phoneNumber: "7157474501",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239c72c0001a5",
       "63701d74f032395694000024",
       "63701d74f03239d40b000089",
@@ -22642,7 +22642,7 @@ export const dataAttendee = [
     event: "MX",
     student_year: "Speech Pathologist",
     phoneNumber: "9542194914",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239528f00001f",
       "63701d74f03239d81e000035",
       "63701d74f03239b7f700002e",
@@ -22664,7 +22664,7 @@ export const dataAttendee = [
     event: "RU",
     student_year: "Data Coordiator",
     phoneNumber: "4132071143",
-    transactions: [
+    dataFinalists: [
       "63701d74f032398675000157",
       "63701d74f032396b8e000046",
       "63701d74f03239569400001d",
@@ -22681,7 +22681,7 @@ export const dataAttendee = [
     event: "BO",
     student_year: "Nurse Practicioner",
     phoneNumber: "2161218895",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239bef0000131",
       "63701d74f03239f09e0001b7",
       "63701d74f03239c72c0001a6",
@@ -22704,7 +22704,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Nurse Practicioner",
     phoneNumber: "4544363972",
-    transactions: ["63701d74f03239bef000015b", "63701d74f03239b91300002c"],
+    dataFinalists: ["63701d74f03239bef000015b", "63701d74f03239b91300002c"],
     role: "superadministrator",
   },
   {
@@ -22717,7 +22717,7 @@ export const dataAttendee = [
     event: "AF",
     student_year: "Sales Representative",
     phoneNumber: "1923232722",
-    transactions: [
+    dataFinalists: [
       "63701d74f0323986f3000158",
       "63701d74f03239444100030e",
       "63701d74f03239c72c00019b",
@@ -22734,7 +22734,7 @@ export const dataAttendee = [
     event: "SO",
     student_year: "Graphic Designer",
     phoneNumber: "7976549619",
-    transactions: [
+    dataFinalists: [
       "63701d74f032396b8e00003f",
       "63701d74f0323986f3000142",
       "63701d74f03239d40b000074",
@@ -22752,7 +22752,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Desktop Support Technician",
     phoneNumber: "6841672881",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239db69000159",
       "63701d74f032394441000307",
       "63701d74f032395694000043",
@@ -22769,7 +22769,7 @@ export const dataAttendee = [
     event: "FR",
     student_year: "Human Resources Manager",
     phoneNumber: "2626797396",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394441000304",
       "63701d74f03239d591000332",
       "63701d74f03239569400001c",
@@ -22786,7 +22786,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Developer IV",
     phoneNumber: "6824178344",
-    transactions: ["63701d74f03239d81e000043", "63701d74f03239f09e0001bf"],
+    dataFinalists: ["63701d74f03239d81e000043", "63701d74f03239f09e0001bf"],
     role: "superadministrator",
   },
   {
@@ -22799,7 +22799,7 @@ export const dataAttendee = [
     event: "AM",
     student_year: "Web Designer I",
     phoneNumber: "5559497135",
-    transactions: ["63701d74f03239c72c000196"],
+    dataFinalists: ["63701d74f03239c72c000196"],
     role: "attendee",
   },
   {
@@ -22812,7 +22812,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Clinical Specialist",
     phoneNumber: "1476153631",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e00002b",
       "63701d74f0323986f3000150",
       "63701d74f032390a34000348",
@@ -22832,7 +22832,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Teacher",
     phoneNumber: "9225826889",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d59100034e",
       "63701d74f032390a34000349",
       "63701d74f03239d591000349",
@@ -22853,7 +22853,7 @@ export const dataAttendee = [
     event: "CO",
     student_year: "Nurse",
     phoneNumber: "2731484562",
-    transactions: ["63701d74f03239b7f700001e"],
+    dataFinalists: ["63701d74f03239b7f700001e"],
     role: "attendee",
   },
   {
@@ -22866,7 +22866,7 @@ export const dataAttendee = [
     event: "NL",
     student_year: "Accounting Assistant II",
     phoneNumber: "7409445535",
-    transactions: [
+    dataFinalists: [
       "63701d74f032394c49000156",
       "63701d74f032399c00000150",
       "63701d74f03239c72c0001a1",
@@ -22884,7 +22884,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Design Engineer",
     phoneNumber: "6449317103",
-    transactions: ["63701d74f03239b913000045"],
+    dataFinalists: ["63701d74f03239b913000045"],
     role: "attendee",
   },
   {
@@ -22897,7 +22897,7 @@ export const dataAttendee = [
     event: "CN",
     student_year: "Automation Specialist III",
     phoneNumber: "1506165643",
-    transactions: [
+    dataFinalists: [
       "63701d74f032390a34000343",
       "63701d74f03239d40b00006c",
       "63701d74f032394c4900013d",
@@ -22915,7 +22915,7 @@ export const dataAttendee = [
     event: "PY",
     student_year: "Geological Engineer",
     phoneNumber: "8768925153",
-    transactions: ["63701d74f032395b33000131", "63701d74f03239b913000030"],
+    dataFinalists: ["63701d74f032395b33000131", "63701d74f03239b913000030"],
     role: "superadministrator",
   },
   {
@@ -22928,7 +22928,7 @@ export const dataAttendee = [
     event: "ID",
     student_year: "Engineer II",
     phoneNumber: "5043493141",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239b913000040",
       "63701d74f03239db6900015a",
       "63701d74f03239569400001f",
@@ -22949,7 +22949,7 @@ export const dataAttendee = [
     event: "VN",
     student_year: "GIS Technical Architect",
     phoneNumber: "7076130812",
-    transactions: [
+    dataFinalists: [
       "63701d74f03239d81e000027",
       "63701d74f03239528f000035",
       "63701d74f03239d40b000081",
@@ -22972,7 +22972,40 @@ export const dataAttendee = [
     event: "PH",
     student_year: "Social Worker",
     phoneNumber: "1371356593",
-    transactions: ["63701d74f032399c0000014f", "63701d74f03239b7f700003f"],
+    dataFinalists: ["63701d74f032399c0000014f", "63701d74f03239b7f700003f"],
     role: "administrator",
   },
 ];
+
+export const dataAttendeeStatus = [ {
+  "_id": "64330e22c09bdf080e781ad0",
+  "dataFinalists": [],
+  "role": "administrator",
+  "attendeeId": {
+      "_id": "63701cc1f03239c72c000185",
+      "name": "Westbrook",
+      "email": "wsiddon6@state.tx.us",
+      "password": "PVfV72mNxb4",
+      "city": "Hanjiashu",
+      "state": null,
+      "event": "CN",
+      "student_year": "Quality Engineer",
+      "phoneNumber": "3096621613",
+      "dataFinalists": [
+          "63701d74f0323944410002fa",
+          "63701d74f03239f09e0001ab",
+          "63701d74f03239db6900014e",
+          "63701d74f032395b33000158",
+          "63701d74f032390a3400034c",
+          "63701d74f0323986f3000151",
+          "63701d74f0323986f3000145",
+          "63701d74f03239867500012f",
+          "63701d74f03239f09e0001ad"
+      ],
+      "role": "superadministrator",
+    
+  },
+  "status": "Waitlist",
+  "date": "2023-04-09T19:12:34.498Z",
+
+}];
