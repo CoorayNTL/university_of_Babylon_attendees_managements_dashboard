@@ -2,10 +2,12 @@ import mongoose from "mongoose";
 
 const attendeeStatusSchema = new mongoose.Schema({
   name: {
-    type: String, 
+    type: String,
+    required: true,
   },
   email: {
     type: String,
+    required: true,
     
   },
   city: String,
@@ -17,7 +19,7 @@ const attendeeStatusSchema = new mongoose.Schema({
   role: {
     type: String,
     enum: ["attendee", "administrator", "superadministrator"],
-    default: "administrator",
+    default: "attendee",
   },
 
   attendeeId: {

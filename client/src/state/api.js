@@ -104,7 +104,7 @@ export const api = createApi({
     }),
 
     getAttendeeStatus: build.query({
-      query: (id) => `client/attendeeStatus/${id}`,
+      query: () => `client/attendeeStatus`,
       providesTags: ["AttendeeStatus"],
     }),
   }),
@@ -125,5 +125,5 @@ export const {
   useCreateAttendeesMutation,
   useUpdateAttendeesMutation,
   useDeleteAttendeesMutation,
-  useGetAttendeeStatusesQuery,
+  useGetAttendeeStatusQuery,
 } = api;

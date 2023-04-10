@@ -213,14 +213,26 @@ export const deleteDataFinalist = async (req, res) => {
 // Create attendee status
 export const createAttendeeStatus = async (req, res) => {
   const {
-    
+    name,
+    email,
+    city,
+    state,
+    event,
+    student_year,
+    phoneNumber,
     attendeeId,
     status,
   } = req.body;
 
   try {
     const attendeeStatus = await AttendeeStatus.create({
-     
+      name,
+      email,
+      city,
+      state,
+      event,
+      student_year,
+      phoneNumber,
       attendeeId,
       status,
     });

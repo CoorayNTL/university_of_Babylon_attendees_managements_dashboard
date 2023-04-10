@@ -15,7 +15,7 @@ import Monthly from "scenes/monthly";
 import Breakdown from "scenes/breakdown";
 import RSVPEMAIL from "scenes/revpemail";
 import Administrator from "scenes/administrator";
-import Performance from "scenes/performance";
+import AttendeeStatus from "scenes/attendeeStatus";
 
 function App() {
   const mode = useSelector((state) => state.global.mode);
@@ -38,7 +38,7 @@ function App() {
               <Route path="/breakdown" element={<Breakdown />} />
               <Route path="/rsvpemail" element={<RSVPEMAIL />} />
               <Route path="/administrator" element={<Administrator />} />
-              <Route path="/performance" element={<Performance />} /> 
+              <Route path="/attendeeStatus" element={<AttendeeStatus />} /> 
             </Route>
           </Routes>
         </ThemeProvider>
