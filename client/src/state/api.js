@@ -94,10 +94,7 @@ export const api = createApi({
             method: "GET",
             providesTags: ["Administrators"],
         }),
-        getAttendeePerformance: build.query({
-            query: (id) => `management/performance/${id}`,
-            providesTags: ["Performance"],
-        }),
+        
         getDashboard: build.query({
             query: () => "general/dashboard",
             providesTags: ["Dashboard"],
