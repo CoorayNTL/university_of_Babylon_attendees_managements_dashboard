@@ -17,7 +17,7 @@ const Email = (options) => {
 };
 
 // send email
-const EmailSender = ({fullName, email, message}) => {
+const EmailSender = ({ fullName, email, message }) => {
     const options = {
         from: `Event 📅 <${process.env.USER}>`,
         to: email,

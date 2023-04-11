@@ -1,9 +1,9 @@
 import express from "express";
 import { getAttendee, getDashboardStats } from "../controllers/general.js";
 import {
-  createAttendees,
-  deleteAttendees,
-  updateAttendees,
+    createAttendees,
+    deleteAttendees,
+    updateAttendees,
 } from "../controllers/client.js";
 
 const router = express.Router();

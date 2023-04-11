@@ -18,33 +18,45 @@ import Administrator from "scenes/administrator";
 import AttendeeStatus from "scenes/attendeeStatus";
 
 function App() {
-  const mode = useSelector((state) => state.global.mode);
-  const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
-  return (
-    <div className="app">
-      <BrowserRouter>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <Routes>
-            <Route element={<Layout />}>
-              <Route path="/" element={<Navigate to="/dashboard" replace />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/feedBacks" element={<FeedBacks />} />
-              <Route path="/attendees" element={<Attendees />} />
-              <Route path="/dataFinalists" element={<DataFinalists />} />
-              <Route path="/overview" element={<Overview />} />
-              <Route path="/daily" element={<Daily />} />
-              <Route path="/monthly" element={<Monthly />} />
-              <Route path="/breakdown" element={<Breakdown />} />
-              <Route path="/rsvpemail" element={<RSVPEMAIL />} />
-              <Route path="/administrator" element={<Administrator />} />
-              <Route path="/attendeeStatus" element={<AttendeeStatus />} /> 
-            </Route>
-          </Routes>
-        </ThemeProvider>
-      </BrowserRouter>
-    </div>
-  );
+    const mode = useSelector((state) => state.global.mode);
+    const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
+    return (
+        <div className="app">
+            <BrowserRouter>
+                <ThemeProvider theme={theme}>
+                    <CssBaseline />
+                    <Routes>
+                        <Route element={<Layout />}>
+                            <Route
+                                path="/"
+                                element={<Navigate to="/dashboard" replace />}
+                            />
+                            <Route path="/dashboard" element={<Dashboard />} />
+                            <Route path="/feedBacks" element={<FeedBacks />} />
+                            <Route path="/attendees" element={<Attendees />} />
+                            <Route
+                                path="/dataFinalists"
+                                element={<DataFinalists />}
+                            />
+                            <Route path="/overview" element={<Overview />} />
+                            <Route path="/daily" element={<Daily />} />
+                            <Route path="/monthly" element={<Monthly />} />
+                            <Route path="/breakdown" element={<Breakdown />} />
+                            <Route path="/rsvpemail" element={<RSVPEMAIL />} />
+                            <Route
+                                path="/administrator"
+                                element={<Administrator />}
+                            />
+                            <Route
+                                path="/attendeeStatus"
+                                element={<AttendeeStatus />}
+                            />
+                        </Route>
+                    </Routes>
+                </ThemeProvider>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;

@@ -1,7 +1,7 @@
 import express from "express";
 import {
-  getAdministrator,
-  getAttendeePerformance,
+    getAdministrator,
+    getAttendeePerformance,
 } from "../controllers/management.js";
 
 const router = express.Router();

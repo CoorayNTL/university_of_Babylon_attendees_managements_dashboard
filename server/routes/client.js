@@ -1,20 +1,19 @@
 import express from "express";
 import {
-  getFeedBacks,
-  getAttendee,
-  getDataFinalists,
-  createDataFinalist,
-  updateDataFinalist,
-  deleteDataFinalist,
-  createAttendees,
-  updateAttendees,
-  deleteAttendees,
-  getAttendeeById,
-  createAttendeeStatus,
-  updateAttendeeStatus,
-  deleteAttendeeStatus,
-  getAllAttendeeStatuses,
-  
+    getFeedBacks,
+    getAttendee,
+    getDataFinalists,
+    createDataFinalist,
+    updateDataFinalist,
+    deleteDataFinalist,
+    createAttendees,
+    updateAttendees,
+    deleteAttendees,
+    getAttendeeById,
+    createAttendeeStatus,
+    updateAttendeeStatus,
+    deleteAttendeeStatus,
+    getAllAttendeeStatuses,
 } from "../controllers/client.js";
 
 const router = express.Router();
