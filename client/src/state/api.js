@@ -134,6 +134,39 @@ export const api = createApi({
                 };
             },
         }),
+
+        createAdminsitrator: build.mutation({
+            query(newAdminsitrator) {
+                return {
+                    url: `management/administrator`,
+                    method: "POST",
+                    body: newAdminsitrator,
+                };
+            },
+            invalidatesTags: ["Administrators"],
+        }),
+
+        updateAdminsitrator: build.mutation({
+            query(updatedAdminsitrator) {
+                return {
+                    url: `management/administrator/${updatedAdminsitrator._id}`,
+                    method: "PATCH",
+                    body: updatedAdminsitrator,
+                };
+            },
+            invalidatesTags: ["Administrators"],
+        }),
+
+        deleteAdminsitrator: build.mutation({
+            query(id) {
+                return {
+                    url: `management/administrator/${id}`,
+                    method: "DELETE",
+                };
+              
+            },
+            invalidatesTags: ["Administrators"],
+        }),
     }),
 });
 
@@ -156,4 +189,7 @@ export const {
     useCreateAttendeeStatusMutation,
     useUdaptedAttendeeStatusMutation,
     useDeleteAttendeeeStatusMutation,
+    useCreateAdminsitratorMutation,
+    useUpdateAdminsitratorMutation,
+    useDeleteAdminsitratorMutation,
 } = api;

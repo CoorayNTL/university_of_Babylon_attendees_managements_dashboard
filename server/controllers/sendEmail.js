@@ -42,8 +42,6 @@ const EmailSender = ({ fullName, email, message }) => {
             </p>
             <div style="font-size: .8rem; margin: 0 30px">
               <p>FullName: <b>${fullName}</b></p>
-              
-              
               <p>Message: <i>${message}</i></p>
             </div>
           </div>

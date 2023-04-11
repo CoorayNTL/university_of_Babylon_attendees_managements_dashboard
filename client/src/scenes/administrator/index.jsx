@@ -1,4 +1,9 @@
-import { useGetAdministratorsQuery } from "state/api";
+import {
+    useGetAdministratorsQuery,
+    useCreateAdminsitratorMutation,
+    useDeleteAdminsitratorMutation,
+useUpdateAdminsitratorMutation,
+} from "state/api";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import MaterialReactTable from "material-react-table";
 import {
@@ -32,15 +37,23 @@ const Administrator = () => {
         }
     }, [data]);
 
+    const [createAdministrator] = useCreateAdminsitratorMutation();
+    const [deleteAdministrator] = useDeleteAdminsitratorMutation();
+    const [updateAdministrator] = useUpdateAdminsitratorMutation();
+
     const handleCreateNewRow = (values) => {
+        console.log("values", values);
+        createAdministrator(values);
         tableData.push(values);
         setTableData([...tableData]);
     };
 
     const handleSaveRowEdits = async ({ exitEditingMode, row, values }) => {
-        if (!Object.keys(validationErrors)) {
+        if (!Object.keys(validationErrors).length) {
             tableData[row.index] = values;
             //send/receive api updates here, then refetch or update local table data for re-render
+            console.log("values", values);
+            updateAdministrator(values);
             setTableData([...tableData]);
             exitEditingMode(); //required to exit editing mode and close modal
         }
@@ -52,11 +65,12 @@ const Administrator = () => {
 
     const handleDeleteRow = useCallback(
         (row) => {
-            //send api delete request here, then refetch or update local table data for re-render
+            console.log("row", row);
+            deleteAdministrator(row.original._id);
             tableData.splice(row.index, 1);
             setTableData([...tableData]);
         },
-        [tableData]
+        [deleteAdministrator,tableData]
     );
 
     const getCommonEditTextFieldProps = useCallback(
@@ -132,22 +146,7 @@ const Administrator = () => {
                     ...getCommonEditTextFieldProps(cell),
                 }),
             },
-            {
-                accessorKey: "event",
-                header: "Event",
-                size: 80,
-                muiTableBodyCellEditTextFieldProps: ({ cell }) => ({
-                    ...getCommonEditTextFieldProps(cell),
-                }),
-            },
-            {
-                accessorKey: "student_year",
-                header: "Student year",
-                size: 80,
-                muiTableBodyCellEditTextFieldProps: ({ cell }) => ({
-                    ...getCommonEditTextFieldProps(cell),
-                }),
-            },
+
             {
                 accessorKey: "phoneNumber",
                 header: "Phone Number",

@@ -36,7 +36,7 @@ export const getAttendee = async (req, res) => {
         res.status(404).json({ message: error.message });
     }
 };
-
+ 
 export const getAttendeeById = async (req, res) => {
     const { id } = req.params;
 
@@ -254,7 +254,6 @@ export const updateAttendeeStatus = async (req, res) => {
             { status },
             { new: true }
         );
-
         if (!attendeeStatus) {
             return res
                 .status(404)

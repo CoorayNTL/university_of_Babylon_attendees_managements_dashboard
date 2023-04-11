@@ -24,8 +24,8 @@ router.get("/attendees/:id", getAttendeeById);
 
 router.get("/dataFinalists", getDataFinalists);
 router.post("/dataFinalists", createDataFinalist);
-router.patch("/dataFinalists", updateDataFinalist);
-router.delete("/dataFinalists", deleteDataFinalist);
+router.patch("/dataFinalists/:id", updateDataFinalist);
+router.delete("/dataFinalists/:id", deleteDataFinalist);
 
 router.post("/attendees", createAttendees);
 router.patch("/attendees/:id", updateAttendees);
