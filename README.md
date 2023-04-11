@@ -25,7 +25,7 @@ https://react-redux.js.org/introduction/getting-started
 # React Redux Toolkit
 https://redux-toolkit.js.org/tutorials/quick-start
 
-#MUI in react
+# MUI in react
 https://mui.com/material-ui/getting-started/installation/
 
 # BOX
