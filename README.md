@@ -1,7 +1,5 @@
 # university_of_Babylon_attendees_managements_dashboard
 
-(https://github.com/CoorayNTL/university_of_Babylon_attendees_managements_dashboard/assets/96631498/f80542ea-0864-45e2-a2ed-ea79098aab5c)
-
 # runing instrcuction 
 npm i both server and client
 
@@ -93,3 +91,7 @@ Perfect for development.
 npm install -g nodemon
 
 https://github.com/remy/nodemon/
+
+
+
+(https://github.com/CoorayNTL/university_of_Babylon_attendees_managements_dashboard/assets/96631498/f80542ea-0864-45e2-a2ed-ea79098aab5c)
