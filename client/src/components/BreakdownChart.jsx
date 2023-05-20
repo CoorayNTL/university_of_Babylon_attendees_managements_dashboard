@@ -15,14 +15,16 @@ const BreakdownChart = ({ isDashboard = false }) => {
         theme.palette.secondary[300],
         theme.palette.secondary[500],
     ];
-    const formattedData = Object.entries(data.EventsByCategory).map(
-        ([category, events], i) => ({
-            id: category,
-            label: category,
-            value: events,
-            color: colors[i],
-        })
-    );
+    const formattedData = data?.EventsByCategory
+        ? Object.entries(data.EventsByCategory).map(
+              ([category, events], i) => ({
+                  id: category,
+                  label: category,
+                  value: events,
+                  color: colors[i],
+              })
+          )
+        : [];
 
     return (
         <Box

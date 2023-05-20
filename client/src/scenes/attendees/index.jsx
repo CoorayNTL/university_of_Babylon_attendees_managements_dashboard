@@ -64,7 +64,6 @@ const Attendee = () => {
 
     const handleDeleteRow = useCallback(
         (row) => {
-
             deleteAttendee(row.original._id);
 
             tableData.splice(row.index, 1);
@@ -295,7 +294,7 @@ export const CreateNewAccountModal = ({ open, columns, onClose, onSubmit }) => {
                     onClick={handleSubmit}
                     variant="contained"
                 >
-                    Create New Attendee
+                    Add New Attendee
                 </Button>
             </DialogActions>
         </Dialog>

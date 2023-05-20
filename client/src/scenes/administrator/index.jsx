@@ -218,7 +218,7 @@ const Administrator = () => {
                             onClick={() => setCreateModalOpen(true)}
                             variant="contained"
                         >
-                            Create New Account
+                            Add New Administrator
                         </Button>
                     )}
                 />
@@ -282,7 +282,7 @@ export const CreateNewAccountModal = ({ open, columns, onClose, onSubmit }) => {
                     onClick={handleSubmit}
                     variant="contained"
                 >
-                    Create New Account
+                    Add New Administrator 
                 </Button>
             </DialogActions>
         </Dialog>

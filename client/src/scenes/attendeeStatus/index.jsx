@@ -69,7 +69,7 @@ const AttendeeStatus = () => {
             tableData.splice(row.index, 1);
             setTableData([...tableData]);
         },
-        [deleteAttendeeStatus,tableData]
+        [deleteAttendeeStatus, tableData]
     );
 
     const getCommonEditTextFieldProps = useCallback(
@@ -203,59 +203,64 @@ const AttendeeStatus = () => {
 
     return (
         <>
-            <Header title="ATTENDEES" subtitle="List of Attendees" />
-            <MaterialReactTable
-                loading={isLoading || !data}
-                displayColumnDefOptions={{
-                    "mrt-row-actions": {
-                        muiTableHeadCellProps: {
-                            align: "center",
+            <Box m="1.5rem 1.0rem">
+                <Header
+                    title="ATTENDEES STATUS MANGEMENT"
+                    subtitle="List of Attendees Manege"
+                />
+                <MaterialReactTable
+                    loading={isLoading || !data}
+                    displayColumnDefOptions={{
+                        "mrt-row-actions": {
+                            muiTableHeadCellProps: {
+                                align: "center",
+                            },
+                            size: 120,
                         },
-                        size: 120,
-                    },
-                }}
-                columns={columns}
-                data={tableData}
-                editingMode="modal" //default
-                enableColumnOrdering
-                enableEditing
-                onEditingRowSave={handleSaveRowEdits}
-                onEditingRowCancel={handleCancelRowEdits}
-                renderRowActions={({ row, table }) => (
-                    <Box sx={{ display: "flex", gap: "1rem" }}>
-                        <Tooltip arrow placement="left" title="Edit">
-                            <IconButton
-                                onClick={() => table.setEditingRow(row)}
-                            >
-                                <Edit />
-                            </IconButton>
-                        </Tooltip>
-                        <Tooltip arrow placement="right" title="Delete">
-                            <IconButton
-                                color="error"
-                                onClick={() => handleDeleteRow(row)}
-                            >
-                                <Delete />
-                            </IconButton>
-                        </Tooltip>
-                    </Box>
-                )}
-                renderTopToolbarCustomActions={() => (
-                    <Button
-                        color="secondary"
-                        onClick={() => setCreateModalOpen(true)}
-                        variant="contained"
-                    >
-                        Add New Attendee
-                    </Button>
-                )}
-            />
-            <CreateNewAccountModal
-                columns={columns}
-                open={createModalOpen}
-                onClose={() => setCreateModalOpen(false)}
-                onSubmit={handleCreateNewRow}
-            />
+                    }}
+                    columns={columns}
+                    data={tableData}
+                    editingMode="modal" //default
+                    enableColumnOrdering
+                    enableEditing
+                    onEditingRowSave={handleSaveRowEdits}
+                    onEditingRowCancel={handleCancelRowEdits}
+                    renderRowActions={({ row, table }) => (
+                        <Box sx={{ display: "flex", gap: "1rem" }}>
+                            <Tooltip arrow placement="left" title="Edit">
+                                <IconButton
+                                    onClick={() => table.setEditingRow(row)}
+                                >
+                                    <Edit />
+                                </IconButton>
+                            </Tooltip>
+                            <Tooltip arrow placement="right" title="Delete">
+                                <IconButton
+                                    color="error"
+                                    onClick={() => handleDeleteRow(row)}
+                                >
+                                    <Delete />
+                                </IconButton>
+                            </Tooltip>
+                        </Box>
+                    )}
+                    renderTopToolbarCustomActions={() => (
+                        <Button
+                            color="secondary"
+                            onClick={() => setCreateModalOpen(true)}
+                            variant="contained"
+                        >
+                            Add New Attendee Status
+                        </Button>
+                    )}
+                />
+                <CreateNewAccountModal
+                    columns={columns}
+                    open={createModalOpen}
+                    onClose={() => setCreateModalOpen(false)}
+                    onSubmit={handleCreateNewRow}
+                />
+            </Box>
         </>
     );
 };
@@ -309,7 +314,7 @@ export const CreateNewAccountModal = ({ open, columns, onClose, onSubmit }) => {
                     onClick={handleSubmit}
                     variant="contained"
                 >
-                    Create New Account
+                   Add New Attendee Status
                 </Button>
             </DialogActions>
         </Dialog>

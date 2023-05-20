@@ -29,6 +29,7 @@ const DataFinalists = () => {
         search,
     });
 
+    
     const [createDataFinalist] = useGetCreateDataFinalistMutation();
     const [updateDataFinalist] = useGetUpdateDataFinalistMutation();
     const [deleteDataFinalist] = useGetDeleteDataFinalistMutation();

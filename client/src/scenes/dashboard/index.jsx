@@ -2,7 +2,7 @@ import React from "react";
 import FlexBetween from "components/FlexBetween";
 import Header from "components/Header";
 import {
-	DownloadOutlined,
+	UploadOutlined,
 	Email,
 	PointOfSale,
 	PersonAdd,
@@ -45,7 +45,7 @@ const Dashboard = () => {
 		{
 			field: "feedbacks",
 			headerName: "# of FeedBacks",
-			flex: 0.5,
+			flex: 0.5, 
 			sortable: false,
 			renderCell: (params) => (params.value ?? "").length,
 		},
@@ -75,7 +75,7 @@ const Dashboard = () => {
 							padding: "10px 20px",
 						}}
 					>
-						<DownloadOutlined sx={{ mr: "10px" }} />
+						<UploadOutlined sx={{ mr: "10px" }} />
 						Upload CSV Reports
 					</Button>
 				</Box>

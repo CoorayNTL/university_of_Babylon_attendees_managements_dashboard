@@ -46,12 +46,7 @@ const FeedBack = ({
                 <Typography variant="h5" component="div">
                     {name}
                 </Typography>
-                <Typography
-                    sx={{ mb: "1.5rem" }}
-                    color={theme.palette.secondary[400]}
-                >
-                    Rs.{Number(price).toFixed(2)}
-                </Typography>
+                
                 <Rating value={rating} readOnly />
 
                 <Typography variant="body2">{description}</Typography>
@@ -108,7 +103,6 @@ const FeedBacks = () => {
                             _id,
                             name,
                             description,
-                            price,
                             rating,
                             category,
                         }) => (
@@ -117,7 +111,6 @@ const FeedBacks = () => {
                                 _id={_id}
                                 name={name}
                                 description={description}
-                                price={price}
                                 rating={rating}
                                 category={category}
                             />

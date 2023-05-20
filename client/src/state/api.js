@@ -17,7 +17,7 @@ export const api = createApi({
     endpoints: (build) => ({
         getAttendee: build.query({
             query: (id) => `general/attendee/${id}`,
-            transformResponse: (res) => res.sort((a, b) => b.id - a.id),
+            
             providesTags: ["Attendee"],
         }),
         getFeedBacks: build.query({
@@ -32,6 +32,7 @@ export const api = createApi({
         CreateAttendees: build.mutation({
             query: (newAttendee) => ({
                 url: "client/attendees",
+                transformResponse: (res) => res.sort((a, b) => b.id - a.id),
                 method: "POST",
                 body: newAttendee,
             }),

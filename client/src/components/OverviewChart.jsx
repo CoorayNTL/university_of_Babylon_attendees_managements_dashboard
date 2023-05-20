@@ -6,7 +6,7 @@ import { useGetEventsQuery } from "state/api";
 const OverviewChart = ({ isDashboard = false, view }) => {
   const theme = useTheme();
   const { data, isLoading } = useGetEventsQuery();
-
+   console.log("overviewdata",data)
   const [totalEventsLine, totalUnitsLine] = useMemo(() => {
     if (!data) return [];
 

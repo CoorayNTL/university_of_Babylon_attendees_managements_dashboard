@@ -8,7 +8,7 @@ import morgan from "morgan";
 import clientRoutes from "./routes/client.js";
 import generalRoutes from "./routes/general.js";
 import managementRoutes from "./routes/management.js";
-import eventsRoutes from "./routes/events.js";
+import eventsRoutesAM from "./routes/events.js";
 import EmailSender from "./controllers/sendEmail.js";
 
 // data imports
@@ -44,7 +44,7 @@ app.use(cors({ origin: `${process.env.CLIENT_URL}` }));
 app.use("/client", clientRoutes);
 app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
-app.use("/events", eventsRoutes);
+app.use("/events", eventsRoutesAM);
 
 const PORT = process.env.PORT || 9000;
 
@@ -68,11 +68,11 @@ mongoose
         app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
         // AffiliateStat.insertMany(dataAffiliateStat);
-        // OverallStat.insertMany(dataOverallStat);
+       // OverallStat.insertMany(dataOverallStat);
         // FeedBack.insertMany(dataFeedBack);
         // FeedBackStat.insertMany(dataFeedBackStat);
-        // DataFinalists.insertMany(eventDataFinalists);
+    //DataFinalists.insertMany(eventDataFinalists);
         // Attendee.insertMany(dataAttendee);
-        //AttendeeStatus.insertMany(dataAttendeeStatus);
+        // AttendeeStatus.insertMany(dataAttendeeStatus);
     })
     .catch((error) => console.log(`${error} did not connect`));

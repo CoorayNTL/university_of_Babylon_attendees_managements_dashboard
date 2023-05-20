@@ -1,16 +1,17 @@
 // color design tokens export
 export const tokensDark = {
-    indigo: {
-        100: "#d9e4ff",
-        200: "#b3c9ff",
-        300: "#8eadff",
-        400: "#6892ff",
-        500: "#4277ff",
-        600: "#355fcc",
-        700: "#284799",
-        800: "#1a3066",
-        900: "#0d1833",
-    },
+
+    black: {
+          100: "#ccd4e1",
+          200: "#99a9c4",
+          300: "#667fa6",
+          400: "#335489",
+          500: "#00296b",
+          600: "#002156",
+          700: "#001940",
+          800: "#00102b",
+          900: "#000815"
+}, 
     grey: {
         0: "#ffffff", // manually adjusted
         10: "#f6f6f6", // manually adjusted

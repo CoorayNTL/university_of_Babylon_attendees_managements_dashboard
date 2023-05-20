@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3156fdde-4c0c-43f3-ac11-02ff3d333edc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BreakdownChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BreakdownChart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/administrator/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/administrator/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/attendeeStatus/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/attendeeStatus/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/attendees/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/attendees/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/dashboard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/dashboard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/feedBacks/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/feedBacks/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/revpemail/API/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/revpemail/API/Api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/state/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -39,6 +51,7 @@
       <updated>1680741456763</updated>
       <workItem from="1680741458801" duration="19000" />
       <workItem from="1681131584088" duration="104000" />
+      <workItem from="1683214363489" duration="203000" />
     </task>
     <servers />
   </component>

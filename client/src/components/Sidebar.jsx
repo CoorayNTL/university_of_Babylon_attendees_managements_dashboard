@@ -25,6 +25,7 @@ import {
     AdminPanelSettingsOutlined,
     TrendingUpOutlined,
     PieChartOutlined,
+    AssignmentIndOutlined
 } from "@mui/icons-material";
 import FeedbackIcon from "@mui/icons-material/Feedback";
 import EmailIcon from "@mui/icons-material/Email";
@@ -87,7 +88,7 @@ const navItems = [
     },
     {
         text: "AttendeeStatus",
-        icon: <TrendingUpOutlined />,
+        icon: <AssignmentIndOutlined />,
     },
 ];
 
@@ -167,7 +168,7 @@ const Sidebar = ({
                                     <ListItem key={text} disablePadding>
                                         <ListItemButton
                                             onClick={() => {
-                                                navigate(`/${lcText}`);
+                                                navigate(`/attendeemanager/${lcText}`);
                                                 setActive(lcText);
                                             }}
                                             sx={{
