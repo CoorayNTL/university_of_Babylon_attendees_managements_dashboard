@@ -1,6 +1,7 @@
 # university_of_Babylon_attendees_managements_dashboard
 
-![AttendeeDashboard](https://github.com/CoorayNTL/university_of_Babylon_attendees_managements_dashboard/assets/96631498/f19cc358-b324-43c1-a095-d06b0a80bfd0)
+![AttendeeDashboard](https://github.com/CoorayNTL/university_of_Babylon_attendees_managements_dashboard/assets/96631498/e82f2154-144b-42ef-806b-5b68e7f519c4)
+
 
 # runing instrcuction 
 npm i both server and client
